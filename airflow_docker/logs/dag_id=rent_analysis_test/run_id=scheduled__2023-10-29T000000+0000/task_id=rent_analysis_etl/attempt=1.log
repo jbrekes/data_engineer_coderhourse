@@ -1,0 +1,35 @@
+[2023-10-29 22:22:47,060] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-29 22:22:47,070] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-29T00:00:00+00:00 [queued]>
+[2023-10-29 22:22:47,071] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 22:22:47,072] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-10-29 22:22:47,073] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 22:22:47,088] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 00:00:00+00:00
+[2023-10-29 22:22:47,091] {standard_task_runner.py:52} INFO - Started process 4858 to run task
+[2023-10-29 22:22:47,094] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'scheduled__2023-10-29T00:00:00+00:00', '--job-id', '2049', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmp7yolmk3d', '--error-file', '/tmp/tmprlezvsym']
+[2023-10-29 22:22:47,096] {standard_task_runner.py:80} INFO - Job 2049: Subtask rent_analysis_etl
+[2023-10-29 22:22:47,159] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-29T00:00:00+00:00 [running]> on host 116fb122d054
+[2023-10-29 22:22:47,231] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-29T00:00:00+00:00
+[2023-10-29 22:22:47,821] {logging_mixin.py:115} INFO - Starting Script
+[2023-10-29 22:22:47,828] {logging_mixin.py:115} INFO - Extracting new listings from Argenprop
+[2023-10-29 22:26:23,336] {logging_mixin.py:115} INFO - Total listings scrapped: 379
+[2023-10-29 22:26:23,338] {logging_mixin.py:115} INFO - Doing some formatting
+[2023-10-29 22:26:23,343] {logging_mixin.py:115} INFO - ETL Process complete. Record example: {'listing_id': '14674709', 'listing_url': 'https://www.argenprop.com/departamento-en-alquiler-en-barrio-norte-4-ambientes--14674709', 'title_address': 'Segui 3500, Piso 3', 'title_desc_short': 'Departamento en Alquiler en Barrio Norte, Capital Federal', 'description_title': 'segui 3500 hermoso 4 ambientes', 'description_content': 'precioso departamentoen inmejorable zonadoble circulación3 dormitoriosoriginalmente el departamento es de 3 ambientes con living comedor en Lpero se ha creado un dormitorio dejando el living comedor con buenas dimensionescocina con lavadero semi integrado3 cómodos dormitoriosbaño completo mas toilette de recepciónbalcón corridoIMPECABLE!!!Servicios:Cloacas, Gas', 'listing_price': '$ 700.000', 'address_detail': 'Segui 3500, Piso 3', 'address_zone': 'Barrio Norte, Capital Federal', 'room_qty': 4, 'dorms_qty': 3, 'baths_qty': 2, 'parking_qty': None, 'property_conditions': 'Excelente', 'property_age': None, 'building_conditions': 'Muy Bueno', 'sell_or_rent_ind': 'Alquiler', 'unit_type': 'Departamento', 'area_built': 70, 'area_not_built': None, 'expenses_amt': 82300, 'price_amt': 700000, 'elevator_ind': False, 'pets_ind': False, 'gym_ind': False, 'rooftop_ind': False, 'pool_ind': False, 'grill_ind': False, 'solarium_ind': False, 'process_dt': '2023-10-29', 'process_dttm': '2023-10-29 22:22:47 UTC', 'area_built_units': 'm2', 'area_not_built_units': None, 'informs_price_ind': True, 'price_amt_units': 'ARS', 'expenses_ind': True, 'expenses_amt_units': 'ARS'}
+[2023-10-29 22:26:23,344] {logging_mixin.py:115} INFO - Loading data to Redshift
+[2023-10-29 22:26:23,346] {logging_mixin.py:115} INFO - data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com 5439 data-engineer-database jbrekesdata_coderhouse qHVZ6LI393
+[2023-10-29 22:26:23,347] {logging_mixin.py:115} INFO - Connecting to Redshift Cluster
+[2023-10-29 22:26:24,755] {logging_mixin.py:115} INFO - Connection Complete
+[2023-10-29 22:26:29,785] {logging_mixin.py:115} INFO - Uploading iteration 1 out of 1
+[2023-10-29 22:26:30,254] {logging_mixin.py:115} INFO - Time taken for iteration 1: 0.467470645904541 seconds
+[2023-10-29 22:26:30,257] {logging_mixin.py:115} INFO - Processing complete. Total time: 0.47 seconds
+[2023-10-29 22:26:30,260] {python.py:173} INFO - Done. Returned value was: None
+[2023-10-29 22:26:30,279] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T000000, start_date=20231029T222247, end_date=20231029T222630
+[2023-10-29 22:26:30,344] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-10-29 22:26:30,383] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

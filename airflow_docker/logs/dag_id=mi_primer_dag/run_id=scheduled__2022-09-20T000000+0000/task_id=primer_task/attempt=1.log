@@ -1,0 +1,28 @@
+[2023-10-20 23:28:54,880] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag.primer_task scheduled__2022-09-20T00:00:00+00:00 [queued]>
+[2023-10-20 23:28:54,892] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag.primer_task scheduled__2022-09-20T00:00:00+00:00 [queued]>
+[2023-10-20 23:28:54,892] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-20 23:28:54,893] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-10-20 23:28:54,893] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-20 23:28:54,913] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): primer_task> on 2022-09-20 00:00:00+00:00
+[2023-10-20 23:28:54,918] {standard_task_runner.py:52} INFO - Started process 910 to run task
+[2023-10-20 23:28:54,921] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag', 'primer_task', 'scheduled__2022-09-20T00:00:00+00:00', '--job-id', '1380', '--raw', '--subdir', 'DAGS_FOLDER/mi_primer_dag.py', '--cfg-path', '/tmp/tmpnymcu41x', '--error-file', '/tmp/tmp5f88y14j']
+[2023-10-20 23:28:54,924] {standard_task_runner.py:80} INFO - Job 1380: Subtask primer_task
+[2023-10-20 23:28:55,005] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dag.primer_task scheduled__2022-09-20T00:00:00+00:00 [running]> on host dfdda228c9fc
+[2023-10-20 23:28:55,110] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dag
+AIRFLOW_CTX_TASK_ID=primer_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-20T00:00:00+00:00
+[2023-10-20 23:28:55,111] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-10-20 23:28:55,112] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo hola mundo, esta es nuestra primera tarea usando bash operator!']
+[2023-10-20 23:28:55,120] {subprocess.py:85} INFO - Output:
+[2023-10-20 23:28:55,122] {subprocess.py:92} INFO - hola mundo, esta es nuestra primera tarea usando bash operator!
+[2023-10-20 23:28:55,122] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-10-20 23:28:55,155] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag, task_id=primer_task, execution_date=20220920T000000, start_date=20231020T232854, end_date=20231020T232855
+[2023-10-20 23:28:55,174] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-10-20 23:28:55,210] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

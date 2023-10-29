@@ -1,0 +1,38 @@
+[2023-10-29 20:51:21,549] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 20:51:21,566] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 20:51:21,572] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 20:51:21,574] {taskinstance.py:1377} INFO - Starting attempt 6 of 6
+[2023-10-29 20:51:21,575] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 20:51:21,596] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 17:10:02.641675+00:00
+[2023-10-29 20:51:21,600] {standard_task_runner.py:52} INFO - Started process 3256 to run task
+[2023-10-29 20:51:21,604] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'manual__2023-10-29T17:10:02.641675+00:00', '--job-id', '2036', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmpsl5_k9g_', '--error-file', '/tmp/tmp3hxu0bx0']
+[2023-10-29 20:51:21,612] {standard_task_runner.py:80} INFO - Job 2036: Subtask rent_analysis_etl
+[2023-10-29 20:51:21,699] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [running]> on host b6dd3d55cad8
+[2023-10-29 20:51:21,903] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T17:10:02.641675+00:00
+AIRFLOW_CTX_TRY_NUMBER=6
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-29T17:10:02.641675+00:00
+[2023-10-29 20:51:22,319] {logging_mixin.py:115} INFO - Starting Script
+[2023-10-29 20:51:22,321] {logging_mixin.py:115} INFO - Extracting new listings from Argenprop
+[2023-10-29 20:54:54,079] {logging_mixin.py:115} INFO - Total listings scrapped: 379
+[2023-10-29 20:54:54,080] {logging_mixin.py:115} INFO - Doing some formatting
+[2023-10-29 20:54:54,088] {logging_mixin.py:115} INFO - ETL Process complete. Record example: {'listing_id': '7939762', 'listing_url': 'https://www.argenprop.com/departamento-en-alquiler-en-villa-crespo-2-ambientes--7939762', 'title_address': 'CORRIENTES 4800', 'title_desc_short': 'Departamento en Alquiler en Villa Crespo, Capital Federal', 'description_title': 'Departamento de 2 ambientes en  en Villa crespo', 'description_content': '2  ambientes muy amplios, luminoso, con balcon al frente  EMPREDIMIENTO DE GRAN NIVEL ARQUITECTONICO . A metros de la estacion Gallardo del subte B- Se deja constancia que las caracteristicas, medidas, expensas y superficies  consignadas son aproximadas, sujetos a verificación y/o ajuste. El precio del inmueble puede ser modificado sin previo aviso. Fotos de carácter no contractual. Las unidades publicadas están sujetas a ******** Migliorisi de Corrientes 5500 SRL Profesional responsable Diego F Migliorisi CPI263', 'listing_price': '$ 111.111.111', 'address_detail': 'CORRIENTES 4800', 'address_zone': 'Villa Crespo, Capital Federal', 'room_qty': 2, 'dorms_qty': 1, 'baths_qty': 1, 'parking_qty': None, 'property_conditions': None, 'property_age': None, 'building_conditions': None, 'sell_or_rent_ind': 'Alquiler', 'unit_type': None, 'area_built': 44, 'area_not_built': None, 'expenses_amt': None, 'price_amt': 111111, 'elevator_ind': False, 'pets_ind': False, 'gym_ind': False, 'rooftop_ind': False, 'pool_ind': False, 'grill_ind': False, 'solarium_ind': False, 'process_dt': '2023-10-29', 'process_dttm': '2023-10-29 20:51:22 UTC', 'area_built_units': 'm2', 'area_not_built_units': None, 'informs_price_ind': True, 'price_amt_units': 'ARS', 'expenses_ind': False, 'expenses_amt_units': None}
+[2023-10-29 20:54:54,089] {logging_mixin.py:115} INFO - Loading data to Redshift
+[2023-10-29 20:54:54,090] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/rent_analysis_functions/functions.py", line 311, in etl_process
+    host = REDSHIFT_HOST
+NameError: name 'REDSHIFT_HOST' is not defined
+[2023-10-29 20:54:54,123] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T171002, start_date=20231029T205121, end_date=20231029T205454
+[2023-10-29 20:54:54,141] {standard_task_runner.py:97} ERROR - Failed to execute job 2036 for task rent_analysis_etl (name 'REDSHIFT_HOST' is not defined; 3256)
+[2023-10-29 20:54:54,187] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-29 20:54:54,228] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,24 @@
+[2023-10-29 17:10:01,617] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-28T00:00:00+00:00 [queued]>
+[2023-10-29 17:10:01,629] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-28T00:00:00+00:00 [queued]>
+[2023-10-29 17:10:01,635] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 17:10:01,639] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-10-29 17:10:01,645] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 17:10:01,683] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-28 00:00:00+00:00
+[2023-10-29 17:10:01,690] {standard_task_runner.py:52} INFO - Started process 257 to run task
+[2023-10-29 17:10:01,695] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'scheduled__2023-10-28T00:00:00+00:00', '--job-id', '2027', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmp0cjwbybb', '--error-file', '/tmp/tmpeaqw2rnr']
+[2023-10-29 17:10:01,698] {standard_task_runner.py:80} INFO - Job 2027: Subtask rent_analysis_etl
+[2023-10-29 17:10:01,766] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl scheduled__2023-10-28T00:00:00+00:00 [running]> on host 83a2f2affd9e
+[2023-10-29 17:10:02,005] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-28T00:00:00+00:00
+[2023-10-29 17:10:02,006] {logging_mixin.py:115} INFO - Process Done
+[2023-10-29 17:10:02,008] {python.py:173} INFO - Done. Returned value was: None
+[2023-10-29 17:10:02,023] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231028T000000, start_date=20231029T171001, end_date=20231029T171002
+[2023-10-29 17:10:02,072] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-10-29 17:10:02,112] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

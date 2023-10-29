@@ -1,0 +1,116 @@
+[2023-10-20 23:39:02,833] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:02,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:02,834] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,834] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:02,870] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:02,962] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,962] {manager.py:508} INFO - Created Permission View: can edit on DAG:dag_print_context
+[2023-10-20 23:39:02,974] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,974] {manager.py:508} INFO - Created Permission View: can delete on DAG:dag_print_context
+[2023-10-20 23:39:02,985] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,985] {manager.py:508} INFO - Created Permission View: can read on DAG:dag_print_context
+[2023-10-20 23:39:02,986] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,986] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:02,996] {logging_mixin.py:115} INFO - [2023-10-20 23:39:02,996] {dag.py:2439} INFO - Creating ORM DAG for dag_print_context
+[2023-10-20 23:39:03,009] {logging_mixin.py:115} INFO - [2023-10-20 23:39:03,009] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-17T00:00:00+00:00, run_after=2023-10-18T00:00:00+00:00
+[2023-10-20 23:39:03,035] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.205 seconds
+[2023-10-20 23:39:13,208] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:13,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:13,210] {logging_mixin.py:115} INFO - [2023-10-20 23:39:13,210] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:13,237] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:13,258] {logging_mixin.py:115} INFO - [2023-10-20 23:39:13,258] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:13,292] {logging_mixin.py:115} INFO - [2023-10-20 23:39:13,291] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-17T00:00:00+00:00, run_after=2023-10-18T00:00:00+00:00
+[2023-10-20 23:39:13,312] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.108 seconds
+[2023-10-20 23:39:23,639] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:23,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:23,642] {logging_mixin.py:115} INFO - [2023-10-20 23:39:23,642] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:23,677] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:23,697] {logging_mixin.py:115} INFO - [2023-10-20 23:39:23,697] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:23,733] {logging_mixin.py:115} INFO - [2023-10-20 23:39:23,733] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-17T00:00:00+00:00, run_after=2023-10-18T00:00:00+00:00
+[2023-10-20 23:39:23,751] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.117 seconds
+[2023-10-20 23:39:34,071] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:34,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:34,074] {logging_mixin.py:115} INFO - [2023-10-20 23:39:34,073] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:34,098] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:34,122] {logging_mixin.py:115} INFO - [2023-10-20 23:39:34,122] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:34,143] {logging_mixin.py:115} INFO - [2023-10-20 23:39:34,143] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:39:34,159] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.094 seconds
+[2023-10-20 23:39:44,553] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:44,554] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:44,556] {logging_mixin.py:115} INFO - [2023-10-20 23:39:44,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:44,626] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:44,657] {logging_mixin.py:115} INFO - [2023-10-20 23:39:44,657] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:44,680] {logging_mixin.py:115} INFO - [2023-10-20 23:39:44,680] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:39:44,697] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.149 seconds
+[2023-10-20 23:39:55,046] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:55,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:39:55,050] {logging_mixin.py:115} INFO - [2023-10-20 23:39:55,050] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:55,086] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:39:55,116] {logging_mixin.py:115} INFO - [2023-10-20 23:39:55,116] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:39:55,138] {logging_mixin.py:115} INFO - [2023-10-20 23:39:55,138] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:39:55,157] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.116 seconds
+[2023-10-20 23:40:05,542] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:05,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:05,544] {logging_mixin.py:115} INFO - [2023-10-20 23:40:05,544] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:05,572] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:05,595] {logging_mixin.py:115} INFO - [2023-10-20 23:40:05,595] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:05,616] {logging_mixin.py:115} INFO - [2023-10-20 23:40:05,616] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:05,631] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.093 seconds
+[2023-10-20 23:40:16,012] {processor.py:153} INFO - Started process (PID=429) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:16,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:16,016] {logging_mixin.py:115} INFO - [2023-10-20 23:40:16,016] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:16,061] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:16,085] {logging_mixin.py:115} INFO - [2023-10-20 23:40:16,084] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:16,106] {logging_mixin.py:115} INFO - [2023-10-20 23:40:16,106] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:16,123] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.116 seconds
+[2023-10-20 23:40:26,443] {processor.py:153} INFO - Started process (PID=449) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:26,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:26,447] {logging_mixin.py:115} INFO - [2023-10-20 23:40:26,447] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:26,507] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:26,540] {logging_mixin.py:115} INFO - [2023-10-20 23:40:26,540] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:26,561] {logging_mixin.py:115} INFO - [2023-10-20 23:40:26,561] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:26,578] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.140 seconds
+[2023-10-20 23:40:37,004] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:37,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:37,007] {logging_mixin.py:115} INFO - [2023-10-20 23:40:37,007] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:37,041] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:37,064] {logging_mixin.py:115} INFO - [2023-10-20 23:40:37,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:37,084] {logging_mixin.py:115} INFO - [2023-10-20 23:40:37,084] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:37,101] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.103 seconds
+[2023-10-20 23:40:47,506] {processor.py:153} INFO - Started process (PID=489) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:47,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:47,508] {logging_mixin.py:115} INFO - [2023-10-20 23:40:47,508] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:47,528] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:47,552] {logging_mixin.py:115} INFO - [2023-10-20 23:40:47,552] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:47,574] {logging_mixin.py:115} INFO - [2023-10-20 23:40:47,574] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:47,590] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.087 seconds
+[2023-10-20 23:40:57,980] {processor.py:153} INFO - Started process (PID=509) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:57,982] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:40:57,983] {logging_mixin.py:115} INFO - [2023-10-20 23:40:57,983] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:58,019] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:40:58,044] {logging_mixin.py:115} INFO - [2023-10-20 23:40:58,044] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:40:58,065] {logging_mixin.py:115} INFO - [2023-10-20 23:40:58,065] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:40:58,081] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.106 seconds
+[2023-10-20 23:41:08,412] {processor.py:153} INFO - Started process (PID=529) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:08,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:41:08,415] {logging_mixin.py:115} INFO - [2023-10-20 23:41:08,415] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:08,466] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:08,491] {logging_mixin.py:115} INFO - [2023-10-20 23:41:08,491] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:41:08,511] {logging_mixin.py:115} INFO - [2023-10-20 23:41:08,511] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:41:08,528] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.121 seconds
+[2023-10-20 23:41:18,864] {processor.py:153} INFO - Started process (PID=549) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:18,866] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:41:18,867] {logging_mixin.py:115} INFO - [2023-10-20 23:41:18,867] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:18,892] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:18,915] {logging_mixin.py:115} INFO - [2023-10-20 23:41:18,915] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:41:18,935] {logging_mixin.py:115} INFO - [2023-10-20 23:41:18,935] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:41:18,952] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.093 seconds
+[2023-10-20 23:41:29,163] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:29,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:41:29,164] {logging_mixin.py:115} INFO - [2023-10-20 23:41:29,164] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:29,183] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:29,206] {logging_mixin.py:115} INFO - [2023-10-20 23:41:29,206] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:41:29,227] {logging_mixin.py:115} INFO - [2023-10-20 23:41:29,227] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:41:29,241] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.081 seconds
+[2023-10-20 23:41:39,535] {processor.py:153} INFO - Started process (PID=589) to work on /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:39,537] {processor.py:641} INFO - Processing file /opt/airflow/dags/example_template.py for tasks to queue
+[2023-10-20 23:41:39,539] {logging_mixin.py:115} INFO - [2023-10-20 23:41:39,538] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:39,573] {processor.py:651} INFO - DAG(s) dict_keys(['dag_print_context']) retrieved from /opt/airflow/dags/example_template.py
+[2023-10-20 23:41:39,600] {logging_mixin.py:115} INFO - [2023-10-20 23:41:39,599] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-20 23:41:39,620] {logging_mixin.py:115} INFO - [2023-10-20 23:41:39,620] {dag.py:2972} INFO - Setting next_dagrun for dag_print_context to 2023-10-20T00:00:00+00:00, run_after=2023-10-21T00:00:00+00:00
+[2023-10-20 23:41:39,638] {processor.py:161} INFO - Processing /opt/airflow/dags/example_template.py took 0.108 seconds

@@ -1,0 +1,30 @@
+[2023-10-29 21:10:27,036] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 21:10:27,050] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 21:10:27,056] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 21:10:27,057] {taskinstance.py:1377} INFO - Starting attempt 7 of 7
+[2023-10-29 21:10:27,058] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 21:10:27,083] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 17:10:02.641675+00:00
+[2023-10-29 21:10:27,089] {standard_task_runner.py:52} INFO - Started process 5934 to run task
+[2023-10-29 21:10:27,093] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'manual__2023-10-29T17:10:02.641675+00:00', '--job-id', '2037', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmpgwbua7ux', '--error-file', '/tmp/tmpd2asx557']
+[2023-10-29 21:10:27,096] {standard_task_runner.py:80} INFO - Job 2037: Subtask rent_analysis_etl
+[2023-10-29 21:10:27,201] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [running]> on host b6dd3d55cad8
+[2023-10-29 21:10:27,410] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T17:10:02.641675+00:00
+AIRFLOW_CTX_TRY_NUMBER=7
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-29T17:10:02.641675+00:00
+[2023-10-29 21:10:27,412] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: etl_process() missing 2 required positional arguments: 'REDSHIFT_DATABASE' and 'REDSHIFT_PASSWORD'
+[2023-10-29 21:10:27,421] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T171002, start_date=20231029T211027, end_date=20231029T211027
+[2023-10-29 21:10:27,433] {standard_task_runner.py:97} ERROR - Failed to execute job 2037 for task rent_analysis_etl (etl_process() missing 2 required positional arguments: 'REDSHIFT_DATABASE' and 'REDSHIFT_PASSWORD'; 5934)
+[2023-10-29 21:10:27,468] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-29 21:10:27,507] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,40 @@
+[2023-10-29 21:43:25,780] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 21:43:25,791] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 21:43:25,792] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 21:43:25,793] {taskinstance.py:1377} INFO - Starting attempt 9 of 9
+[2023-10-29 21:43:25,793] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 21:43:25,811] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 17:10:02.641675+00:00
+[2023-10-29 21:43:25,815] {standard_task_runner.py:52} INFO - Started process 282 to run task
+[2023-10-29 21:43:25,818] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'manual__2023-10-29T17:10:02.641675+00:00', '--job-id', '2040', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmp_fp8mpx4', '--error-file', '/tmp/tmp50sk93d1']
+[2023-10-29 21:43:25,820] {standard_task_runner.py:80} INFO - Job 2040: Subtask rent_analysis_etl
+[2023-10-29 21:43:25,889] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [running]> on host e3378aab2911
+[2023-10-29 21:43:26,068] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T17:10:02.641675+00:00
+AIRFLOW_CTX_TRY_NUMBER=9
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-29T17:10:02.641675+00:00
+[2023-10-29 21:43:27,243] {logging_mixin.py:115} INFO - Starting Script
+[2023-10-29 21:43:27,245] {logging_mixin.py:115} INFO - Extracting new listings from Argenprop
+[2023-10-29 21:47:01,074] {logging_mixin.py:115} INFO - Total listings scrapped: 379
+[2023-10-29 21:47:01,075] {logging_mixin.py:115} INFO - Doing some formatting
+[2023-10-29 21:47:01,080] {logging_mixin.py:115} INFO - ETL Process complete. Record example: {'listing_id': '14674697', 'listing_url': 'https://www.argenprop.com/departamento-en-alquiler-en-barrio-norte-3-ambientes--14674697', 'title_address': 'Cabello 3600, Piso 5', 'title_desc_short': 'Departamento en Alquiler en Barrio Norte, Capital Federal', 'description_title': 'cabello 3600 3 ambientes contra frente', 'description_content': 'buen departamento en piso 5 contrafrente con balconcocina con pasaplatoslavadero integradomuebles de bajo mesada y alacenasbaño completo2 dormitorios con placardpisos de parquetexpensas octubre 2023 $ 40.000Servicios:Cloacas, Gas', 'listing_price': '$ 450.000', 'address_detail': 'Cabello 3600, Piso 5', 'address_zone': 'Barrio Norte, Capital Federal', 'room_qty': 3, 'dorms_qty': 2, 'baths_qty': 1, 'parking_qty': None, 'property_conditions': 'Muy Bueno', 'property_age': None, 'building_conditions': 'Muy Bueno', 'sell_or_rent_ind': 'Alquiler', 'unit_type': 'Departamento', 'area_built': 50, 'area_not_built': None, 'expenses_amt': 40000, 'price_amt': 450000, 'elevator_ind': False, 'pets_ind': False, 'gym_ind': False, 'rooftop_ind': False, 'pool_ind': False, 'grill_ind': False, 'solarium_ind': False, 'process_dt': '2023-10-29', 'process_dttm': '2023-10-29 21:43:27 UTC', 'area_built_units': 'm2', 'area_not_built_units': None, 'informs_price_ind': True, 'price_amt_units': 'ARS', 'expenses_ind': True, 'expenses_amt_units': 'ARS'}
+[2023-10-29 21:47:01,081] {logging_mixin.py:115} INFO - Loading data to Redshift
+[2023-10-29 21:47:01,082] {logging_mixin.py:115} INFO - Connecting to Redshift Cluster
+[2023-10-29 21:47:01,423] {logging_mixin.py:115} INFO - Failed to connect to Redshift
+[2023-10-29 21:47:01,424] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/rent_analysis_functions/functions.py", line 346, in etl_process
+    conn, engine = redshift_connection(host, port, database, user, password)
+TypeError: cannot unpack non-iterable NoneType object
+[2023-10-29 21:47:01,438] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T171002, start_date=20231029T214325, end_date=20231029T214701
+[2023-10-29 21:47:01,454] {standard_task_runner.py:97} ERROR - Failed to execute job 2040 for task rent_analysis_etl (cannot unpack non-iterable NoneType object; 282)
+[2023-10-29 21:47:01,492] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-29 21:47:01,518] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

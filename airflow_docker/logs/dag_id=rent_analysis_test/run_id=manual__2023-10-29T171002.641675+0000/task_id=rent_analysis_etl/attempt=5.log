@@ -1,0 +1,40 @@
+[2023-10-29 17:56:56,406] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 17:56:56,417] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 17:56:56,418] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 17:56:56,419] {taskinstance.py:1377} INFO - Starting attempt 5 of 5
+[2023-10-29 17:56:56,419] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 17:56:56,433] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 17:10:02.641675+00:00
+[2023-10-29 17:56:56,437] {standard_task_runner.py:52} INFO - Started process 701 to run task
+[2023-10-29 17:56:56,440] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'manual__2023-10-29T17:10:02.641675+00:00', '--job-id', '2035', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmp_oa_kevs', '--error-file', '/tmp/tmpnt9qcjvr']
+[2023-10-29 17:56:56,442] {standard_task_runner.py:80} INFO - Job 2035: Subtask rent_analysis_etl
+[2023-10-29 17:56:56,505] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [running]> on host b6dd3d55cad8
+[2023-10-29 17:56:56,687] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T17:10:02.641675+00:00
+AIRFLOW_CTX_TRY_NUMBER=5
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-29T17:10:02.641675+00:00
+[2023-10-29 17:56:57,079] {logging_mixin.py:115} INFO - Starting Script
+[2023-10-29 17:56:57,080] {logging_mixin.py:115} INFO - Extracting new listings from Argenprop
+[2023-10-29 18:00:33,506] {logging_mixin.py:115} INFO - Total listings scrapped: 379
+[2023-10-29 18:00:33,507] {logging_mixin.py:115} INFO - Doing some formatting
+[2023-10-29 18:00:33,512] {logging_mixin.py:115} INFO - ETL Process complete. Record example: {'listing_id': '11372010', 'listing_url': 'https://www.argenprop.com/departamento-en-alquiler-en-congreso-1-ambiente--11372010', 'title_address': 'Adolfo Alsina 1900, Piso 3', 'title_desc_short': 'Departamento en Alquiler en Congreso, Capital Federal', 'description_title': 'MONOAMBIENTE- A MTS DE AV. ENTRE RÍOS Y SUBTE A-  MUY LUMIN', 'description_content': 'EXCELENTE MONOAMBIENTE - MUY BUEN ESTADO - LUMUNOSO CONTRAFRENTE - CON VISTA ABIERTA - COCINA 4 HORNALLAS Y HORNO VISOR - TERMOTANQUE ELECTRICO PHILCO 73 L. MESADA DE GRANITO Y MUEBLE BAJO MESADA- A METS. DE AV. ENTRE RÍOS Y SUBTE A -Para los casos de alquiler de vivienda, el monto máximo de comisión que se le puede requerir a los propietarios será el equivalente al cuatro con quince centésimos por ciento (4,15%) del valor total del respectivo contrato. Se encuentra prohibido cobrar a los inquilinos que sean personas físicas comisiones inmobiliarias y gastos de gestoría de informes.Información Adicional:Tipo de vista: Vista ciudadTipo de piso: ParquetMonto de las expensas: 5300Características y servicios del edificio:Tipo de vista: Vista ciudadServicios:Cloacas, GasAmbientes:Ambiente', 'listing_price': '$ 180.000', 'address_detail': 'Adolfo Alsina 1900, Piso 3', 'address_zone': 'Congreso, Capital Federal', 'room_qty': 1, 'dorms_qty': None, 'baths_qty': 1, 'parking_qty': None, 'property_conditions': 'Muy Bueno', 'property_age': 48, 'building_conditions': None, 'sell_or_rent_ind': 'Alquiler', 'unit_type': 'Departamento', 'area_built': 26, 'area_not_built': None, 'expenses_amt': 12500, 'price_amt': 180000, 'elevator_ind': False, 'pets_ind': False, 'gym_ind': False, 'rooftop_ind': False, 'pool_ind': False, 'grill_ind': False, 'solarium_ind': False, 'process_dt': '2023-10-29', 'process_dttm': '2023-10-29 17:56:57 UTC', 'area_built_units': 'm2', 'area_not_built_units': None, 'informs_price_ind': True, 'price_amt_units': 'ARS', 'expenses_ind': True, 'expenses_amt_units': 'ARS'}
+[2023-10-29 18:00:33,512] {logging_mixin.py:115} INFO - Loading data to Redshift
+[2023-10-29 18:00:33,513] {logging_mixin.py:115} INFO - Connecting to Redshift Cluster
+[2023-10-29 18:00:33,994] {logging_mixin.py:115} INFO - Failed to connect to Redshift
+[2023-10-29 18:00:33,995] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/rent_analysis_functions/functions.py", line 349, in etl_process
+    conn, engine = redshift_connection(host, port, database, user, password)
+TypeError: cannot unpack non-iterable NoneType object
+[2023-10-29 18:00:34,014] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T171002, start_date=20231029T175656, end_date=20231029T180034
+[2023-10-29 18:00:34,037] {standard_task_runner.py:97} ERROR - Failed to execute job 2035 for task rent_analysis_etl (cannot unpack non-iterable NoneType object; 701)
+[2023-10-29 18:00:34,071] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-29 18:00:34,115] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

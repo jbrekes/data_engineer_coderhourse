@@ -1,0 +1,746 @@
+[2023-10-29 16:41:12,802] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:12,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:41:12,804] {logging_mixin.py:115} INFO - [2023-10-29 16:41:12,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:13,101] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:13,291] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,291] {manager.py:508} INFO - Created Permission View: can read on DAG:docker_test_dag
+[2023-10-29 16:41:13,300] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,300] {manager.py:508} INFO - Created Permission View: can delete on DAG:docker_test_dag
+[2023-10-29 16:41:13,307] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,307] {manager.py:508} INFO - Created Permission View: can edit on DAG:docker_test_dag
+[2023-10-29 16:41:13,307] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,307] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:41:13,314] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,314] {dag.py:2439} INFO - Creating ORM DAG for docker_test_dag
+[2023-10-29 16:41:13,323] {logging_mixin.py:115} INFO - [2023-10-29 16:41:13,323] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:41:13,340] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.540 seconds
+[2023-10-29 16:41:23,746] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:23,748] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:41:23,749] {logging_mixin.py:115} INFO - [2023-10-29 16:41:23,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:23,903] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:24,009] {logging_mixin.py:115} INFO - [2023-10-29 16:41:24,009] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:41:24,027] {logging_mixin.py:115} INFO - [2023-10-29 16:41:24,027] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:41:24,040] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.298 seconds
+[2023-10-29 16:41:34,372] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:34,373] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:41:34,374] {logging_mixin.py:115} INFO - [2023-10-29 16:41:34,374] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:34,455] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:34,558] {logging_mixin.py:115} INFO - [2023-10-29 16:41:34,558] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:41:34,576] {logging_mixin.py:115} INFO - [2023-10-29 16:41:34,576] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:41:34,591] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.221 seconds
+[2023-10-29 16:41:44,934] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:44,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:41:44,936] {logging_mixin.py:115} INFO - [2023-10-29 16:41:44,936] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:45,027] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:45,141] {logging_mixin.py:115} INFO - [2023-10-29 16:41:45,141] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:41:45,159] {logging_mixin.py:115} INFO - [2023-10-29 16:41:45,159] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:41:45,171] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.239 seconds
+[2023-10-29 16:41:55,440] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:55,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:41:55,443] {logging_mixin.py:115} INFO - [2023-10-29 16:41:55,443] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:55,538] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:41:55,646] {logging_mixin.py:115} INFO - [2023-10-29 16:41:55,646] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:41:55,663] {logging_mixin.py:115} INFO - [2023-10-29 16:41:55,663] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:41:55,676] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.240 seconds
+[2023-10-29 16:42:05,886] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:05,888] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:05,889] {logging_mixin.py:115} INFO - [2023-10-29 16:42:05,889] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:05,988] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:06,103] {logging_mixin.py:115} INFO - [2023-10-29 16:42:06,103] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:06,121] {logging_mixin.py:115} INFO - [2023-10-29 16:42:06,121] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:06,135] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.254 seconds
+[2023-10-29 16:42:16,393] {processor.py:153} INFO - Started process (PID=333) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:16,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:16,397] {logging_mixin.py:115} INFO - [2023-10-29 16:42:16,397] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:16,488] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:16,626] {logging_mixin.py:115} INFO - [2023-10-29 16:42:16,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:16,645] {logging_mixin.py:115} INFO - [2023-10-29 16:42:16,645] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:16,660] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.271 seconds
+[2023-10-29 16:42:26,972] {processor.py:153} INFO - Started process (PID=358) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:26,973] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:26,974] {logging_mixin.py:115} INFO - [2023-10-29 16:42:26,974] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:27,044] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:27,154] {logging_mixin.py:115} INFO - [2023-10-29 16:42:27,154] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:27,171] {logging_mixin.py:115} INFO - [2023-10-29 16:42:27,171] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:27,185] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.216 seconds
+[2023-10-29 16:42:37,634] {processor.py:153} INFO - Started process (PID=383) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:37,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:37,637] {logging_mixin.py:115} INFO - [2023-10-29 16:42:37,637] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:37,727] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:37,839] {logging_mixin.py:115} INFO - [2023-10-29 16:42:37,839] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:37,856] {logging_mixin.py:115} INFO - [2023-10-29 16:42:37,856] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:37,868] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.236 seconds
+[2023-10-29 16:42:48,270] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:48,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:48,272] {logging_mixin.py:115} INFO - [2023-10-29 16:42:48,272] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:48,383] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:48,509] {logging_mixin.py:115} INFO - [2023-10-29 16:42:48,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:48,527] {logging_mixin.py:115} INFO - [2023-10-29 16:42:48,527] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:48,539] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.273 seconds
+[2023-10-29 16:42:58,848] {processor.py:153} INFO - Started process (PID=433) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:58,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:42:58,851] {logging_mixin.py:115} INFO - [2023-10-29 16:42:58,851] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:58,970] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:42:59,086] {logging_mixin.py:115} INFO - [2023-10-29 16:42:59,086] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:42:59,103] {logging_mixin.py:115} INFO - [2023-10-29 16:42:59,103] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:42:59,118] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.274 seconds
+[2023-10-29 16:43:09,407] {processor.py:153} INFO - Started process (PID=458) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:09,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:43:09,409] {logging_mixin.py:115} INFO - [2023-10-29 16:43:09,409] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:09,492] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:09,602] {logging_mixin.py:115} INFO - [2023-10-29 16:43:09,602] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:43:09,620] {logging_mixin.py:115} INFO - [2023-10-29 16:43:09,620] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:43:09,636] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.233 seconds
+[2023-10-29 16:43:20,075] {processor.py:153} INFO - Started process (PID=483) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:20,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:43:20,078] {logging_mixin.py:115} INFO - [2023-10-29 16:43:20,078] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:20,172] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:20,296] {logging_mixin.py:115} INFO - [2023-10-29 16:43:20,296] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:43:20,321] {logging_mixin.py:115} INFO - [2023-10-29 16:43:20,321] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:43:20,338] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.267 seconds
+[2023-10-29 16:43:30,631] {processor.py:153} INFO - Started process (PID=508) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:30,632] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:43:30,634] {logging_mixin.py:115} INFO - [2023-10-29 16:43:30,634] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:30,712] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:30,818] {logging_mixin.py:115} INFO - [2023-10-29 16:43:30,818] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:43:30,835] {logging_mixin.py:115} INFO - [2023-10-29 16:43:30,835] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:43:30,849] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.222 seconds
+[2023-10-29 16:43:41,389] {processor.py:153} INFO - Started process (PID=533) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:41,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:43:41,391] {logging_mixin.py:115} INFO - [2023-10-29 16:43:41,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:41,471] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:41,583] {logging_mixin.py:115} INFO - [2023-10-29 16:43:41,583] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:43:41,610] {logging_mixin.py:115} INFO - [2023-10-29 16:43:41,610] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:43:41,626] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.240 seconds
+[2023-10-29 16:43:51,931] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:51,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:43:51,933] {logging_mixin.py:115} INFO - [2023-10-29 16:43:51,933] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:52,012] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:43:52,116] {logging_mixin.py:115} INFO - [2023-10-29 16:43:52,116] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:43:52,133] {logging_mixin.py:115} INFO - [2023-10-29 16:43:52,132] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:43:52,144] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.215 seconds
+[2023-10-29 16:44:02,419] {processor.py:153} INFO - Started process (PID=583) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:02,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:44:02,421] {logging_mixin.py:115} INFO - [2023-10-29 16:44:02,421] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:02,498] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:02,606] {logging_mixin.py:115} INFO - [2023-10-29 16:44:02,606] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:44:02,623] {logging_mixin.py:115} INFO - [2023-10-29 16:44:02,623] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:44:02,637] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.222 seconds
+[2023-10-29 16:44:12,942] {processor.py:153} INFO - Started process (PID=608) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:12,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:44:12,943] {logging_mixin.py:115} INFO - [2023-10-29 16:44:12,943] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:13,015] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:13,123] {logging_mixin.py:115} INFO - [2023-10-29 16:44:13,123] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:44:13,138] {logging_mixin.py:115} INFO - [2023-10-29 16:44:13,138] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:44:13,151] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.212 seconds
+[2023-10-29 16:44:23,486] {processor.py:153} INFO - Started process (PID=633) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:23,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:44:23,490] {logging_mixin.py:115} INFO - [2023-10-29 16:44:23,489] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:23,596] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:23,729] {logging_mixin.py:115} INFO - [2023-10-29 16:44:23,729] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:44:23,747] {logging_mixin.py:115} INFO - [2023-10-29 16:44:23,747] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:44:23,762] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.281 seconds
+[2023-10-29 16:44:34,071] {processor.py:153} INFO - Started process (PID=658) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:34,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:44:34,073] {logging_mixin.py:115} INFO - [2023-10-29 16:44:34,073] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:34,146] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:44:34,258] {logging_mixin.py:115} INFO - [2023-10-29 16:44:34,257] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:44:34,274] {logging_mixin.py:115} INFO - [2023-10-29 16:44:34,274] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:44:34,286] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.218 seconds
+[2023-10-29 16:45:06,990] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:06,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:06,992] {logging_mixin.py:115} INFO - [2023-10-29 16:45:06,991] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:07,202] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:07,316] {logging_mixin.py:115} INFO - [2023-10-29 16:45:07,316] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:07,334] {logging_mixin.py:115} INFO - [2023-10-29 16:45:07,334] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:07,347] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.360 seconds
+[2023-10-29 16:45:17,502] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:17,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:17,504] {logging_mixin.py:115} INFO - [2023-10-29 16:45:17,504] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:17,575] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:17,692] {logging_mixin.py:115} INFO - [2023-10-29 16:45:17,692] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:17,708] {logging_mixin.py:115} INFO - [2023-10-29 16:45:17,707] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:17,720] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.220 seconds
+[2023-10-29 16:45:27,998] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:27,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:28,000] {logging_mixin.py:115} INFO - [2023-10-29 16:45:28,000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:28,084] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:28,218] {logging_mixin.py:115} INFO - [2023-10-29 16:45:28,218] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:28,238] {logging_mixin.py:115} INFO - [2023-10-29 16:45:28,238] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:28,252] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.257 seconds
+[2023-10-29 16:45:38,529] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:38,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:38,531] {logging_mixin.py:115} INFO - [2023-10-29 16:45:38,531] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:38,617] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:38,732] {logging_mixin.py:115} INFO - [2023-10-29 16:45:38,732] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:38,750] {logging_mixin.py:115} INFO - [2023-10-29 16:45:38,750] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:38,764] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.239 seconds
+[2023-10-29 16:45:49,031] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:49,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:49,034] {logging_mixin.py:115} INFO - [2023-10-29 16:45:49,034] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:49,115] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:49,224] {logging_mixin.py:115} INFO - [2023-10-29 16:45:49,224] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:49,246] {logging_mixin.py:115} INFO - [2023-10-29 16:45:49,245] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:49,260] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.233 seconds
+[2023-10-29 16:45:59,547] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:59,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:45:59,548] {logging_mixin.py:115} INFO - [2023-10-29 16:45:59,548] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:59,626] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:45:59,739] {logging_mixin.py:115} INFO - [2023-10-29 16:45:59,739] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:45:59,760] {logging_mixin.py:115} INFO - [2023-10-29 16:45:59,760] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:45:59,773] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.230 seconds
+[2023-10-29 16:46:10,006] {processor.py:153} INFO - Started process (PID=332) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:10,007] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:46:10,007] {logging_mixin.py:115} INFO - [2023-10-29 16:46:10,007] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:10,076] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:10,194] {logging_mixin.py:115} INFO - [2023-10-29 16:46:10,194] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:46:10,212] {logging_mixin.py:115} INFO - [2023-10-29 16:46:10,212] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:46:10,229] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.225 seconds
+[2023-10-29 16:46:20,561] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:20,562] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:46:20,562] {logging_mixin.py:115} INFO - [2023-10-29 16:46:20,562] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:20,659] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:20,794] {logging_mixin.py:115} INFO - [2023-10-29 16:46:20,794] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:46:20,811] {logging_mixin.py:115} INFO - [2023-10-29 16:46:20,811] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:46:20,825] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.267 seconds
+[2023-10-29 16:46:31,172] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:31,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:46:31,176] {logging_mixin.py:115} INFO - [2023-10-29 16:46:31,176] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:31,287] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:31,399] {logging_mixin.py:115} INFO - [2023-10-29 16:46:31,399] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:46:31,415] {logging_mixin.py:115} INFO - [2023-10-29 16:46:31,415] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:46:31,430] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.263 seconds
+[2023-10-29 16:46:42,180] {processor.py:153} INFO - Started process (PID=407) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:42,181] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:46:42,183] {logging_mixin.py:115} INFO - [2023-10-29 16:46:42,183] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:42,282] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:42,410] {logging_mixin.py:115} INFO - [2023-10-29 16:46:42,410] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:46:42,432] {logging_mixin.py:115} INFO - [2023-10-29 16:46:42,432] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:46:42,449] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.274 seconds
+[2023-10-29 16:46:52,811] {processor.py:153} INFO - Started process (PID=432) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:52,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:46:52,812] {logging_mixin.py:115} INFO - [2023-10-29 16:46:52,812] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:52,881] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:46:53,074] {logging_mixin.py:115} INFO - [2023-10-29 16:46:53,074] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:46:53,091] {logging_mixin.py:115} INFO - [2023-10-29 16:46:53,091] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:46:53,114] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.305 seconds
+[2023-10-29 16:47:03,402] {processor.py:153} INFO - Started process (PID=457) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:03,403] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:03,405] {logging_mixin.py:115} INFO - [2023-10-29 16:47:03,405] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:03,516] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:03,641] {logging_mixin.py:115} INFO - [2023-10-29 16:47:03,641] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:03,658] {logging_mixin.py:115} INFO - [2023-10-29 16:47:03,658] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:03,674] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.277 seconds
+[2023-10-29 16:47:13,977] {processor.py:153} INFO - Started process (PID=482) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:13,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:13,979] {logging_mixin.py:115} INFO - [2023-10-29 16:47:13,979] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:14,056] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:14,164] {logging_mixin.py:115} INFO - [2023-10-29 16:47:14,164] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:14,180] {logging_mixin.py:115} INFO - [2023-10-29 16:47:14,180] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:14,193] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.222 seconds
+[2023-10-29 16:47:24,567] {processor.py:153} INFO - Started process (PID=507) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:24,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:24,568] {logging_mixin.py:115} INFO - [2023-10-29 16:47:24,568] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:24,664] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:24,797] {logging_mixin.py:115} INFO - [2023-10-29 16:47:24,797] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:24,817] {logging_mixin.py:115} INFO - [2023-10-29 16:47:24,817] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:24,833] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.262 seconds
+[2023-10-29 16:47:35,123] {processor.py:153} INFO - Started process (PID=532) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:35,124] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:35,126] {logging_mixin.py:115} INFO - [2023-10-29 16:47:35,125] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:35,215] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:35,327] {logging_mixin.py:115} INFO - [2023-10-29 16:47:35,327] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:35,345] {logging_mixin.py:115} INFO - [2023-10-29 16:47:35,345] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:35,358] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.238 seconds
+[2023-10-29 16:47:45,633] {processor.py:153} INFO - Started process (PID=557) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:45,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:45,636] {logging_mixin.py:115} INFO - [2023-10-29 16:47:45,636] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:45,717] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:45,828] {logging_mixin.py:115} INFO - [2023-10-29 16:47:45,828] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:45,845] {logging_mixin.py:115} INFO - [2023-10-29 16:47:45,845] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:45,861] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.232 seconds
+[2023-10-29 16:47:56,148] {processor.py:153} INFO - Started process (PID=582) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:56,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:47:56,149] {logging_mixin.py:115} INFO - [2023-10-29 16:47:56,149] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:56,217] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:47:56,324] {logging_mixin.py:115} INFO - [2023-10-29 16:47:56,324] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:47:56,340] {logging_mixin.py:115} INFO - [2023-10-29 16:47:56,340] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:47:56,353] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.208 seconds
+[2023-10-29 16:48:06,653] {processor.py:153} INFO - Started process (PID=607) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:06,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:06,655] {logging_mixin.py:115} INFO - [2023-10-29 16:48:06,655] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:06,727] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:06,835] {logging_mixin.py:115} INFO - [2023-10-29 16:48:06,835] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:06,852] {logging_mixin.py:115} INFO - [2023-10-29 16:48:06,852] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:06,865] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.217 seconds
+[2023-10-29 16:48:17,197] {processor.py:153} INFO - Started process (PID=632) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:17,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:17,199] {logging_mixin.py:115} INFO - [2023-10-29 16:48:17,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:17,269] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:17,386] {logging_mixin.py:115} INFO - [2023-10-29 16:48:17,386] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:17,404] {logging_mixin.py:115} INFO - [2023-10-29 16:48:17,404] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:17,420] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.227 seconds
+[2023-10-29 16:48:27,751] {processor.py:153} INFO - Started process (PID=657) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:27,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:27,753] {logging_mixin.py:115} INFO - [2023-10-29 16:48:27,753] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:27,832] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:27,948] {logging_mixin.py:115} INFO - [2023-10-29 16:48:27,948] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:27,965] {logging_mixin.py:115} INFO - [2023-10-29 16:48:27,965] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:27,979] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.232 seconds
+[2023-10-29 16:48:38,254] {processor.py:153} INFO - Started process (PID=682) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:38,255] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:38,257] {logging_mixin.py:115} INFO - [2023-10-29 16:48:38,256] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:38,346] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:38,456] {logging_mixin.py:115} INFO - [2023-10-29 16:48:38,456] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:38,473] {logging_mixin.py:115} INFO - [2023-10-29 16:48:38,473] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:38,487] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.236 seconds
+[2023-10-29 16:48:48,769] {processor.py:153} INFO - Started process (PID=707) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:48,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:48,771] {logging_mixin.py:115} INFO - [2023-10-29 16:48:48,771] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:48,881] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:49,014] {logging_mixin.py:115} INFO - [2023-10-29 16:48:49,014] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:49,039] {logging_mixin.py:115} INFO - [2023-10-29 16:48:49,039] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:49,060] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.295 seconds
+[2023-10-29 16:48:59,304] {processor.py:153} INFO - Started process (PID=732) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:59,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:48:59,305] {logging_mixin.py:115} INFO - [2023-10-29 16:48:59,305] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:59,377] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:48:59,485] {logging_mixin.py:115} INFO - [2023-10-29 16:48:59,485] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:48:59,500] {logging_mixin.py:115} INFO - [2023-10-29 16:48:59,500] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:48:59,513] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.212 seconds
+[2023-10-29 16:49:09,820] {processor.py:153} INFO - Started process (PID=757) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:09,821] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:49:09,822] {logging_mixin.py:115} INFO - [2023-10-29 16:49:09,822] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:09,891] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:09,999] {logging_mixin.py:115} INFO - [2023-10-29 16:49:09,999] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:49:10,016] {logging_mixin.py:115} INFO - [2023-10-29 16:49:10,016] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:49:10,030] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.212 seconds
+[2023-10-29 16:49:20,325] {processor.py:153} INFO - Started process (PID=782) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:20,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:49:20,327] {logging_mixin.py:115} INFO - [2023-10-29 16:49:20,327] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:20,421] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:20,537] {logging_mixin.py:115} INFO - [2023-10-29 16:49:20,537] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:49:20,556] {logging_mixin.py:115} INFO - [2023-10-29 16:49:20,556] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:49:20,582] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.261 seconds
+[2023-10-29 16:49:30,852] {processor.py:153} INFO - Started process (PID=807) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:30,853] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:49:30,855] {logging_mixin.py:115} INFO - [2023-10-29 16:49:30,855] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:30,925] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:31,055] {logging_mixin.py:115} INFO - [2023-10-29 16:49:31,055] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:49:31,074] {logging_mixin.py:115} INFO - [2023-10-29 16:49:31,074] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:49:31,087] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.238 seconds
+[2023-10-29 16:49:41,335] {processor.py:153} INFO - Started process (PID=832) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:41,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:49:41,337] {logging_mixin.py:115} INFO - [2023-10-29 16:49:41,337] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:41,408] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:41,513] {logging_mixin.py:115} INFO - [2023-10-29 16:49:41,513] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:49:41,529] {logging_mixin.py:115} INFO - [2023-10-29 16:49:41,529] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:49:41,543] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.210 seconds
+[2023-10-29 16:49:51,765] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:51,766] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:49:51,767] {logging_mixin.py:115} INFO - [2023-10-29 16:49:51,767] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:51,840] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:49:51,967] {logging_mixin.py:115} INFO - [2023-10-29 16:49:51,967] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:49:51,985] {logging_mixin.py:115} INFO - [2023-10-29 16:49:51,985] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:49:51,999] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.238 seconds
+[2023-10-29 16:50:02,246] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:02,247] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:02,248] {logging_mixin.py:115} INFO - [2023-10-29 16:50:02,247] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:02,338] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:02,461] {logging_mixin.py:115} INFO - [2023-10-29 16:50:02,461] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:02,482] {logging_mixin.py:115} INFO - [2023-10-29 16:50:02,482] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:02,503] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.260 seconds
+[2023-10-29 16:50:12,829] {processor.py:153} INFO - Started process (PID=907) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:12,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:12,831] {logging_mixin.py:115} INFO - [2023-10-29 16:50:12,831] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:12,910] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:13,034] {logging_mixin.py:115} INFO - [2023-10-29 16:50:13,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:13,051] {logging_mixin.py:115} INFO - [2023-10-29 16:50:13,051] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:13,065] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.241 seconds
+[2023-10-29 16:50:23,377] {processor.py:153} INFO - Started process (PID=932) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:23,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:23,380] {logging_mixin.py:115} INFO - [2023-10-29 16:50:23,380] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:23,489] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:23,609] {logging_mixin.py:115} INFO - [2023-10-29 16:50:23,609] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:23,631] {logging_mixin.py:115} INFO - [2023-10-29 16:50:23,631] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:23,653] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.283 seconds
+[2023-10-29 16:50:34,131] {processor.py:153} INFO - Started process (PID=957) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:34,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:34,162] {logging_mixin.py:115} INFO - [2023-10-29 16:50:34,162] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:34,309] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:34,421] {logging_mixin.py:115} INFO - [2023-10-29 16:50:34,421] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:34,437] {logging_mixin.py:115} INFO - [2023-10-29 16:50:34,437] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:34,453] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.326 seconds
+[2023-10-29 16:50:44,720] {processor.py:153} INFO - Started process (PID=982) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:44,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:44,723] {logging_mixin.py:115} INFO - [2023-10-29 16:50:44,723] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:44,823] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:44,952] {logging_mixin.py:115} INFO - [2023-10-29 16:50:44,952] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:44,970] {logging_mixin.py:115} INFO - [2023-10-29 16:50:44,970] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:44,985] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.272 seconds
+[2023-10-29 16:50:55,311] {processor.py:153} INFO - Started process (PID=1007) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:55,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:50:55,313] {logging_mixin.py:115} INFO - [2023-10-29 16:50:55,313] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:55,405] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:50:55,517] {logging_mixin.py:115} INFO - [2023-10-29 16:50:55,516] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:50:55,535] {logging_mixin.py:115} INFO - [2023-10-29 16:50:55,535] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:50:55,551] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.247 seconds
+[2023-10-29 16:51:05,822] {processor.py:153} INFO - Started process (PID=1032) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:05,823] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:05,824] {logging_mixin.py:115} INFO - [2023-10-29 16:51:05,824] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:05,905] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:06,036] {logging_mixin.py:115} INFO - [2023-10-29 16:51:06,036] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:06,057] {logging_mixin.py:115} INFO - [2023-10-29 16:51:06,057] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:06,072] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.253 seconds
+[2023-10-29 16:51:16,349] {processor.py:153} INFO - Started process (PID=1057) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:16,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:16,351] {logging_mixin.py:115} INFO - [2023-10-29 16:51:16,351] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:16,439] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:16,573] {logging_mixin.py:115} INFO - [2023-10-29 16:51:16,573] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:16,591] {logging_mixin.py:115} INFO - [2023-10-29 16:51:16,591] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:16,607] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.261 seconds
+[2023-10-29 16:51:26,871] {processor.py:153} INFO - Started process (PID=1082) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:26,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:26,873] {logging_mixin.py:115} INFO - [2023-10-29 16:51:26,873] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:26,947] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:27,073] {logging_mixin.py:115} INFO - [2023-10-29 16:51:27,073] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:27,091] {logging_mixin.py:115} INFO - [2023-10-29 16:51:27,091] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:27,104] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.237 seconds
+[2023-10-29 16:51:37,386] {processor.py:153} INFO - Started process (PID=1107) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:37,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:37,388] {logging_mixin.py:115} INFO - [2023-10-29 16:51:37,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:37,461] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:37,572] {logging_mixin.py:115} INFO - [2023-10-29 16:51:37,572] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:37,588] {logging_mixin.py:115} INFO - [2023-10-29 16:51:37,588] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:37,602] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.219 seconds
+[2023-10-29 16:51:47,925] {processor.py:153} INFO - Started process (PID=1132) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:47,928] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:47,934] {logging_mixin.py:115} INFO - [2023-10-29 16:51:47,933] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:48,031] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:48,155] {logging_mixin.py:115} INFO - [2023-10-29 16:51:48,155] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:48,173] {logging_mixin.py:115} INFO - [2023-10-29 16:51:48,173] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:48,186] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.266 seconds
+[2023-10-29 16:51:58,434] {processor.py:153} INFO - Started process (PID=1157) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:58,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:51:58,437] {logging_mixin.py:115} INFO - [2023-10-29 16:51:58,437] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:58,520] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:51:58,639] {logging_mixin.py:115} INFO - [2023-10-29 16:51:58,639] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:51:58,656] {logging_mixin.py:115} INFO - [2023-10-29 16:51:58,656] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:51:58,670] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.241 seconds
+[2023-10-29 16:52:08,947] {processor.py:153} INFO - Started process (PID=1182) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:08,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:52:08,948] {logging_mixin.py:115} INFO - [2023-10-29 16:52:08,948] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:09,017] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:09,130] {logging_mixin.py:115} INFO - [2023-10-29 16:52:09,130] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:52:09,146] {logging_mixin.py:115} INFO - [2023-10-29 16:52:09,146] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:52:09,159] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.215 seconds
+[2023-10-29 16:52:19,363] {processor.py:153} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:19,365] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:52:19,366] {logging_mixin.py:115} INFO - [2023-10-29 16:52:19,366] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:19,445] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:19,573] {logging_mixin.py:115} INFO - [2023-10-29 16:52:19,573] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:52:19,592] {logging_mixin.py:115} INFO - [2023-10-29 16:52:19,592] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:52:19,606] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.248 seconds
+[2023-10-29 16:52:29,893] {processor.py:153} INFO - Started process (PID=1232) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:29,894] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:52:29,895] {logging_mixin.py:115} INFO - [2023-10-29 16:52:29,895] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:29,971] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:30,093] {logging_mixin.py:115} INFO - [2023-10-29 16:52:30,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:52:30,111] {logging_mixin.py:115} INFO - [2023-10-29 16:52:30,111] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:52:30,125] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.235 seconds
+[2023-10-29 16:52:40,440] {processor.py:153} INFO - Started process (PID=1257) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:40,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:52:40,442] {logging_mixin.py:115} INFO - [2023-10-29 16:52:40,441] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:40,521] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:40,636] {logging_mixin.py:115} INFO - [2023-10-29 16:52:40,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:52:40,653] {logging_mixin.py:115} INFO - [2023-10-29 16:52:40,653] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:52:40,667] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.230 seconds
+[2023-10-29 16:52:50,862] {processor.py:153} INFO - Started process (PID=1282) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:50,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:52:50,864] {logging_mixin.py:115} INFO - [2023-10-29 16:52:50,864] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:50,935] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:52:51,058] {logging_mixin.py:115} INFO - [2023-10-29 16:52:51,058] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:52:51,077] {logging_mixin.py:115} INFO - [2023-10-29 16:52:51,077] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:52:51,089] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.231 seconds
+[2023-10-29 16:53:01,347] {processor.py:153} INFO - Started process (PID=1307) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:01,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:01,349] {logging_mixin.py:115} INFO - [2023-10-29 16:53:01,349] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:01,432] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:01,543] {logging_mixin.py:115} INFO - [2023-10-29 16:53:01,543] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:01,561] {logging_mixin.py:115} INFO - [2023-10-29 16:53:01,561] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:01,573] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.233 seconds
+[2023-10-29 16:53:11,833] {processor.py:153} INFO - Started process (PID=1332) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:11,834] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:11,835] {logging_mixin.py:115} INFO - [2023-10-29 16:53:11,835] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:11,917] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:12,073] {logging_mixin.py:115} INFO - [2023-10-29 16:53:12,073] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:12,096] {logging_mixin.py:115} INFO - [2023-10-29 16:53:12,096] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:12,113] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.283 seconds
+[2023-10-29 16:53:22,392] {processor.py:153} INFO - Started process (PID=1357) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:22,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:22,394] {logging_mixin.py:115} INFO - [2023-10-29 16:53:22,394] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:22,465] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:22,575] {logging_mixin.py:115} INFO - [2023-10-29 16:53:22,575] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:22,591] {logging_mixin.py:115} INFO - [2023-10-29 16:53:22,591] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:22,603] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.217 seconds
+[2023-10-29 16:53:32,977] {processor.py:153} INFO - Started process (PID=1382) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:32,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:32,978] {logging_mixin.py:115} INFO - [2023-10-29 16:53:32,978] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:33,047] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:33,142] {logging_mixin.py:115} INFO - [2023-10-29 16:53:33,142] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:33,156] {logging_mixin.py:115} INFO - [2023-10-29 16:53:33,156] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:33,167] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.192 seconds
+[2023-10-29 16:53:43,381] {processor.py:153} INFO - Started process (PID=1407) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:43,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:43,383] {logging_mixin.py:115} INFO - [2023-10-29 16:53:43,383] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:43,460] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:43,586] {logging_mixin.py:115} INFO - [2023-10-29 16:53:43,586] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:43,608] {logging_mixin.py:115} INFO - [2023-10-29 16:53:43,608] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:43,623] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.245 seconds
+[2023-10-29 16:53:53,905] {processor.py:153} INFO - Started process (PID=1432) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:53,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:53:53,908] {logging_mixin.py:115} INFO - [2023-10-29 16:53:53,908] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:54,014] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:53:54,127] {logging_mixin.py:115} INFO - [2023-10-29 16:53:54,127] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:53:54,144] {logging_mixin.py:115} INFO - [2023-10-29 16:53:54,144] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:53:54,159] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.260 seconds
+[2023-10-29 16:54:04,476] {processor.py:153} INFO - Started process (PID=1457) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:04,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:54:04,478] {logging_mixin.py:115} INFO - [2023-10-29 16:54:04,478] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:04,576] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:04,691] {logging_mixin.py:115} INFO - [2023-10-29 16:54:04,691] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:54:04,708] {logging_mixin.py:115} INFO - [2023-10-29 16:54:04,708] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:54:04,722] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.252 seconds
+[2023-10-29 16:54:15,017] {processor.py:153} INFO - Started process (PID=1482) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:15,018] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:54:15,019] {logging_mixin.py:115} INFO - [2023-10-29 16:54:15,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:15,101] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:15,213] {logging_mixin.py:115} INFO - [2023-10-29 16:54:15,213] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:54:15,229] {logging_mixin.py:115} INFO - [2023-10-29 16:54:15,229] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:54:15,243] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.231 seconds
+[2023-10-29 16:54:25,632] {processor.py:153} INFO - Started process (PID=1507) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:25,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:54:25,634] {logging_mixin.py:115} INFO - [2023-10-29 16:54:25,634] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:25,726] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:25,852] {logging_mixin.py:115} INFO - [2023-10-29 16:54:25,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:54:25,876] {logging_mixin.py:115} INFO - [2023-10-29 16:54:25,876] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:54:25,894] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.267 seconds
+[2023-10-29 16:54:36,262] {processor.py:153} INFO - Started process (PID=1532) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:36,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:54:36,263] {logging_mixin.py:115} INFO - [2023-10-29 16:54:36,263] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:36,342] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:54:36,454] {logging_mixin.py:115} INFO - [2023-10-29 16:54:36,454] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:54:36,475] {logging_mixin.py:115} INFO - [2023-10-29 16:54:36,475] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:54:36,490] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.233 seconds
+[2023-10-29 16:55:09,683] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:09,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:55:09,685] {logging_mixin.py:115} INFO - [2023-10-29 16:55:09,685] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:09,840] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:09,859] {logging_mixin.py:115} INFO - [2023-10-29 16:55:09,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:55:09,879] {logging_mixin.py:115} INFO - [2023-10-29 16:55:09,879] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:55:09,893] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.213 seconds
+[2023-10-29 16:55:20,300] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:20,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:55:20,303] {logging_mixin.py:115} INFO - [2023-10-29 16:55:20,303] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:20,469] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:20,492] {logging_mixin.py:115} INFO - [2023-10-29 16:55:20,491] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:55:20,511] {logging_mixin.py:115} INFO - [2023-10-29 16:55:20,511] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:55:20,527] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.232 seconds
+[2023-10-29 16:55:30,997] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:30,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:55:31,000] {logging_mixin.py:115} INFO - [2023-10-29 16:55:31,000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:31,089] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:31,110] {logging_mixin.py:115} INFO - [2023-10-29 16:55:31,110] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:55:31,128] {logging_mixin.py:115} INFO - [2023-10-29 16:55:31,128] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:55:31,157] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.163 seconds
+[2023-10-29 16:55:41,610] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:41,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:55:41,614] {logging_mixin.py:115} INFO - [2023-10-29 16:55:41,613] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:41,722] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:41,743] {logging_mixin.py:115} INFO - [2023-10-29 16:55:41,743] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:55:41,762] {logging_mixin.py:115} INFO - [2023-10-29 16:55:41,762] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:55:41,778] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.173 seconds
+[2023-10-29 16:55:52,229] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:52,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:55:52,231] {logging_mixin.py:115} INFO - [2023-10-29 16:55:52,231] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:52,339] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:55:52,364] {logging_mixin.py:115} INFO - [2023-10-29 16:55:52,364] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:55:52,390] {logging_mixin.py:115} INFO - [2023-10-29 16:55:52,390] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:55:52,410] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.184 seconds
+[2023-10-29 16:56:02,815] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:02,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:02,818] {logging_mixin.py:115} INFO - [2023-10-29 16:56:02,818] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:02,933] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:02,957] {logging_mixin.py:115} INFO - [2023-10-29 16:56:02,957] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:02,974] {logging_mixin.py:115} INFO - [2023-10-29 16:56:02,974] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:02,994] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.182 seconds
+[2023-10-29 16:56:13,502] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:13,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:13,504] {logging_mixin.py:115} INFO - [2023-10-29 16:56:13,504] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:13,626] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:13,729] {logging_mixin.py:115} INFO - [2023-10-29 16:56:13,729] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:13,757] {logging_mixin.py:115} INFO - [2023-10-29 16:56:13,757] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:13,776] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.277 seconds
+[2023-10-29 16:56:24,380] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:24,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:24,382] {logging_mixin.py:115} INFO - [2023-10-29 16:56:24,382] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:24,499] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:24,520] {logging_mixin.py:115} INFO - [2023-10-29 16:56:24,519] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:24,538] {logging_mixin.py:115} INFO - [2023-10-29 16:56:24,538] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:24,554] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.177 seconds
+[2023-10-29 16:56:34,941] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:34,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:34,943] {logging_mixin.py:115} INFO - [2023-10-29 16:56:34,943] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:35,042] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:35,063] {logging_mixin.py:115} INFO - [2023-10-29 16:56:35,063] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:35,082] {logging_mixin.py:115} INFO - [2023-10-29 16:56:35,082] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:35,098] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.160 seconds
+[2023-10-29 16:56:45,539] {processor.py:153} INFO - Started process (PID=406) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:45,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:45,542] {logging_mixin.py:115} INFO - [2023-10-29 16:56:45,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:45,691] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:45,716] {logging_mixin.py:115} INFO - [2023-10-29 16:56:45,716] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:45,739] {logging_mixin.py:115} INFO - [2023-10-29 16:56:45,739] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:45,758] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.224 seconds
+[2023-10-29 16:56:56,275] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:56,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:56:56,277] {logging_mixin.py:115} INFO - [2023-10-29 16:56:56,277] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:56,409] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:56:56,429] {logging_mixin.py:115} INFO - [2023-10-29 16:56:56,429] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:56:56,451] {logging_mixin.py:115} INFO - [2023-10-29 16:56:56,451] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:56:56,473] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.200 seconds
+[2023-10-29 16:57:06,944] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:06,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:57:06,947] {logging_mixin.py:115} INFO - [2023-10-29 16:57:06,947] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:07,062] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:07,085] {logging_mixin.py:115} INFO - [2023-10-29 16:57:07,085] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:57:07,108] {logging_mixin.py:115} INFO - [2023-10-29 16:57:07,108] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:57:07,125] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.184 seconds
+[2023-10-29 16:57:17,547] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:17,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:57:17,549] {logging_mixin.py:115} INFO - [2023-10-29 16:57:17,549] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:17,634] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:17,654] {logging_mixin.py:115} INFO - [2023-10-29 16:57:17,654] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:57:17,677] {logging_mixin.py:115} INFO - [2023-10-29 16:57:17,677] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:57:17,693] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.149 seconds
+[2023-10-29 16:57:28,177] {processor.py:153} INFO - Started process (PID=506) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:28,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:57:28,180] {logging_mixin.py:115} INFO - [2023-10-29 16:57:28,180] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:28,281] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:28,302] {logging_mixin.py:115} INFO - [2023-10-29 16:57:28,302] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:57:28,323] {logging_mixin.py:115} INFO - [2023-10-29 16:57:28,323] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:57:28,340] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.166 seconds
+[2023-10-29 16:57:38,867] {processor.py:153} INFO - Started process (PID=531) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:38,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:57:38,874] {logging_mixin.py:115} INFO - [2023-10-29 16:57:38,874] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:38,992] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:39,015] {logging_mixin.py:115} INFO - [2023-10-29 16:57:39,014] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:57:39,035] {logging_mixin.py:115} INFO - [2023-10-29 16:57:39,035] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:57:39,054] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.189 seconds
+[2023-10-29 16:57:49,520] {processor.py:153} INFO - Started process (PID=556) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:49,521] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:57:49,522] {logging_mixin.py:115} INFO - [2023-10-29 16:57:49,522] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:49,605] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:57:49,626] {logging_mixin.py:115} INFO - [2023-10-29 16:57:49,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:57:49,645] {logging_mixin.py:115} INFO - [2023-10-29 16:57:49,645] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:57:49,665] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.148 seconds
+[2023-10-29 16:58:00,125] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:00,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:00,129] {logging_mixin.py:115} INFO - [2023-10-29 16:58:00,129] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:00,252] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:00,274] {logging_mixin.py:115} INFO - [2023-10-29 16:58:00,274] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:00,292] {logging_mixin.py:115} INFO - [2023-10-29 16:58:00,292] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:00,313] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.191 seconds
+[2023-10-29 16:58:10,748] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:10,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:10,751] {logging_mixin.py:115} INFO - [2023-10-29 16:58:10,751] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:10,840] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:10,863] {logging_mixin.py:115} INFO - [2023-10-29 16:58:10,862] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:10,883] {logging_mixin.py:115} INFO - [2023-10-29 16:58:10,883] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:10,900] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.155 seconds
+[2023-10-29 16:58:21,386] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:21,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:21,390] {logging_mixin.py:115} INFO - [2023-10-29 16:58:21,389] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:21,515] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:21,538] {logging_mixin.py:115} INFO - [2023-10-29 16:58:21,538] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:21,557] {logging_mixin.py:115} INFO - [2023-10-29 16:58:21,557] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:21,575] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.194 seconds
+[2023-10-29 16:58:32,197] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:32,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:32,199] {logging_mixin.py:115} INFO - [2023-10-29 16:58:32,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:32,323] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:32,410] {logging_mixin.py:115} INFO - [2023-10-29 16:58:32,410] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:32,436] {logging_mixin.py:115} INFO - [2023-10-29 16:58:32,436] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:32,453] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.260 seconds
+[2023-10-29 16:58:42,923] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:42,925] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:42,927] {logging_mixin.py:115} INFO - [2023-10-29 16:58:42,927] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:43,040] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:43,061] {logging_mixin.py:115} INFO - [2023-10-29 16:58:43,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:43,096] {logging_mixin.py:115} INFO - [2023-10-29 16:58:43,096] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:43,114] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.195 seconds
+[2023-10-29 16:58:53,525] {processor.py:153} INFO - Started process (PID=706) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:53,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:58:53,529] {logging_mixin.py:115} INFO - [2023-10-29 16:58:53,528] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:53,626] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:58:53,646] {logging_mixin.py:115} INFO - [2023-10-29 16:58:53,646] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:58:53,664] {logging_mixin.py:115} INFO - [2023-10-29 16:58:53,664] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:58:53,680] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.159 seconds
+[2023-10-29 16:59:04,180] {processor.py:153} INFO - Started process (PID=731) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:04,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:04,184] {logging_mixin.py:115} INFO - [2023-10-29 16:59:04,184] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:04,301] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:04,323] {logging_mixin.py:115} INFO - [2023-10-29 16:59:04,323] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:04,341] {logging_mixin.py:115} INFO - [2023-10-29 16:59:04,341] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:04,358] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.182 seconds
+[2023-10-29 16:59:14,853] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:14,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:14,856] {logging_mixin.py:115} INFO - [2023-10-29 16:59:14,856] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:14,973] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:14,997] {logging_mixin.py:115} INFO - [2023-10-29 16:59:14,997] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:15,020] {logging_mixin.py:115} INFO - [2023-10-29 16:59:15,020] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:15,039] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.189 seconds
+[2023-10-29 16:59:25,536] {processor.py:153} INFO - Started process (PID=781) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:25,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:25,539] {logging_mixin.py:115} INFO - [2023-10-29 16:59:25,539] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:25,624] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:25,648] {logging_mixin.py:115} INFO - [2023-10-29 16:59:25,648] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:25,670] {logging_mixin.py:115} INFO - [2023-10-29 16:59:25,670] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:25,690] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.156 seconds
+[2023-10-29 16:59:36,192] {processor.py:153} INFO - Started process (PID=806) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:36,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:36,199] {logging_mixin.py:115} INFO - [2023-10-29 16:59:36,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:36,310] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:36,336] {logging_mixin.py:115} INFO - [2023-10-29 16:59:36,336] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:36,356] {logging_mixin.py:115} INFO - [2023-10-29 16:59:36,356] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:36,374] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.186 seconds
+[2023-10-29 16:59:46,844] {processor.py:153} INFO - Started process (PID=831) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:46,845] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:46,846] {logging_mixin.py:115} INFO - [2023-10-29 16:59:46,846] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:46,924] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:46,945] {logging_mixin.py:115} INFO - [2023-10-29 16:59:46,945] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:46,964] {logging_mixin.py:115} INFO - [2023-10-29 16:59:46,964] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:46,989] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.147 seconds
+[2023-10-29 16:59:57,420] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:57,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 16:59:57,422] {logging_mixin.py:115} INFO - [2023-10-29 16:59:57,422] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:57,511] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 16:59:57,531] {logging_mixin.py:115} INFO - [2023-10-29 16:59:57,531] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 16:59:57,549] {logging_mixin.py:115} INFO - [2023-10-29 16:59:57,549] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 16:59:57,565] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.148 seconds
+[2023-10-29 17:00:08,038] {processor.py:153} INFO - Started process (PID=881) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:08,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 17:00:08,041] {logging_mixin.py:115} INFO - [2023-10-29 17:00:08,041] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:08,124] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:08,144] {logging_mixin.py:115} INFO - [2023-10-29 17:00:08,144] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 17:00:08,163] {logging_mixin.py:115} INFO - [2023-10-29 17:00:08,163] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 17:00:08,179] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.144 seconds
+[2023-10-29 17:00:18,622] {processor.py:153} INFO - Started process (PID=906) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:18,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 17:00:18,624] {logging_mixin.py:115} INFO - [2023-10-29 17:00:18,624] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:18,712] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:18,732] {logging_mixin.py:115} INFO - [2023-10-29 17:00:18,732] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 17:00:18,752] {logging_mixin.py:115} INFO - [2023-10-29 17:00:18,752] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 17:00:18,770] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.150 seconds
+[2023-10-29 17:00:29,240] {processor.py:153} INFO - Started process (PID=931) to work on /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:29,242] {processor.py:641} INFO - Processing file /opt/airflow/dags/dockeroperator_testing.py for tasks to queue
+[2023-10-29 17:00:29,244] {logging_mixin.py:115} INFO - [2023-10-29 17:00:29,244] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:29,387] {processor.py:651} INFO - DAG(s) dict_keys(['docker_test_dag']) retrieved from /opt/airflow/dags/dockeroperator_testing.py
+[2023-10-29 17:00:29,408] {logging_mixin.py:115} INFO - [2023-10-29 17:00:29,408] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 17:00:29,428] {logging_mixin.py:115} INFO - [2023-10-29 17:00:29,427] {dag.py:2972} INFO - Setting next_dagrun for docker_test_dag to None, run_after=None
+[2023-10-29 17:00:29,445] {processor.py:161} INFO - Processing /opt/airflow/dags/dockeroperator_testing.py took 0.210 seconds

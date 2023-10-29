@@ -1,0 +1,33 @@
+[2023-10-29 22:01:13,010] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 22:01:13,023] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [queued]>
+[2023-10-29 22:01:13,024] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 22:01:13,026] {taskinstance.py:1377} INFO - Starting attempt 11 of 11
+[2023-10-29 22:01:13,028] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-29 22:01:13,053] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): rent_analysis_etl> on 2023-10-29 17:10:02.641675+00:00
+[2023-10-29 22:01:13,060] {standard_task_runner.py:52} INFO - Started process 1810 to run task
+[2023-10-29 22:01:13,067] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'rent_analysis_test', 'rent_analysis_etl', 'manual__2023-10-29T17:10:02.641675+00:00', '--job-id', '2043', '--raw', '--subdir', 'DAGS_FOLDER/rent_analysis_dag.py', '--cfg-path', '/tmp/tmp0zf1xel_', '--error-file', '/tmp/tmp8oggvg36']
+[2023-10-29 22:01:13,070] {standard_task_runner.py:80} INFO - Job 2043: Subtask rent_analysis_etl
+[2023-10-29 22:01:13,167] {task_command.py:371} INFO - Running <TaskInstance: rent_analysis_test.rent_analysis_etl manual__2023-10-29T17:10:02.641675+00:00 [running]> on host 116fb122d054
+[2023-10-29 22:01:13,245] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rent_analysis_test
+AIRFLOW_CTX_TASK_ID=rent_analysis_etl
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-29T17:10:02.641675+00:00
+AIRFLOW_CTX_TRY_NUMBER=11
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-29T17:10:02.641675+00:00
+[2023-10-29 22:01:13,770] {logging_mixin.py:115} INFO - Loading data to Redshift
+[2023-10-29 22:01:13,771] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/rent_analysis_functions/functions.py", line 319, in etl_process
+    print(f"{host} {port} {db} {user} {pwd}")
+NameError: name 'db' is not defined
+[2023-10-29 22:01:13,817] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=rent_analysis_test, task_id=rent_analysis_etl, execution_date=20231029T171002, start_date=20231029T220113, end_date=20231029T220113
+[2023-10-29 22:01:13,849] {standard_task_runner.py:97} ERROR - Failed to execute job 2043 for task rent_analysis_etl (name 'db' is not defined; 1810)
+[2023-10-29 22:01:13,884] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-10-29 22:01:13,937] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

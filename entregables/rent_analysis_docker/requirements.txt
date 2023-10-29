@@ -1,0 +1,12 @@
+beautifulsoup4
+datetime
+pandas
+psycopg2
+pytz
+python-dotenv
+redshift_connector
+requests
+sqlalchemy
+
+
+
