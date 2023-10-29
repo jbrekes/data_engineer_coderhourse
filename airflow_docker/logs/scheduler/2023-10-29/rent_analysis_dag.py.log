@@ -6246,3 +6246,154 @@ ImportError: cannot import name 'process' from 'rent_analysis_functions.function
 [2023-10-29 22:34:05,135] {logging_mixin.py:115} INFO - [2023-10-29 22:34:05,135] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-10-29 22:34:05,169] {logging_mixin.py:115} INFO - [2023-10-29 22:34:05,169] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
 [2023-10-29 22:34:05,184] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.236 seconds
+[2023-10-29 22:35:48,844] {processor.py:153} INFO - Started process (PID=5255) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:48,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:35:48,848] {logging_mixin.py:115} INFO - [2023-10-29 22:35:48,847] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:49,018] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:49,049] {logging_mixin.py:115} INFO - [2023-10-29 22:35:49,049] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:35:49,072] {logging_mixin.py:115} INFO - [2023-10-29 22:35:49,072] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:35:49,089] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.250 seconds
+[2023-10-29 22:35:59,222] {processor.py:153} INFO - Started process (PID=5260) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:59,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:35:59,225] {logging_mixin.py:115} INFO - [2023-10-29 22:35:59,225] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:59,349] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:35:59,364] {logging_mixin.py:115} INFO - [2023-10-29 22:35:59,364] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:35:59,391] {logging_mixin.py:115} INFO - [2023-10-29 22:35:59,391] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:35:59,406] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.189 seconds
+[2023-10-29 22:36:09,516] {processor.py:153} INFO - Started process (PID=5265) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:09,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:36:09,519] {logging_mixin.py:115} INFO - [2023-10-29 22:36:09,519] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:09,646] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:09,662] {logging_mixin.py:115} INFO - [2023-10-29 22:36:09,662] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:36:09,689] {logging_mixin.py:115} INFO - [2023-10-29 22:36:09,688] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:36:09,707] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.195 seconds
+[2023-10-29 22:36:19,853] {processor.py:153} INFO - Started process (PID=5270) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:19,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:36:19,856] {logging_mixin.py:115} INFO - [2023-10-29 22:36:19,856] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:20,013] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:20,034] {logging_mixin.py:115} INFO - [2023-10-29 22:36:20,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:36:20,073] {logging_mixin.py:115} INFO - [2023-10-29 22:36:20,073] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:36:20,099] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.251 seconds
+[2023-10-29 22:36:30,235] {processor.py:153} INFO - Started process (PID=5275) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:30,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:36:30,239] {logging_mixin.py:115} INFO - [2023-10-29 22:36:30,239] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:30,391] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:30,427] {logging_mixin.py:115} INFO - [2023-10-29 22:36:30,427] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:36:30,455] {logging_mixin.py:115} INFO - [2023-10-29 22:36:30,455] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:36:30,470] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.240 seconds
+[2023-10-29 22:36:40,596] {processor.py:153} INFO - Started process (PID=5280) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:40,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:36:40,599] {logging_mixin.py:115} INFO - [2023-10-29 22:36:40,599] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:40,722] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:40,738] {logging_mixin.py:115} INFO - [2023-10-29 22:36:40,738] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:36:40,764] {logging_mixin.py:115} INFO - [2023-10-29 22:36:40,764] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:36:40,779] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.186 seconds
+[2023-10-29 22:36:50,900] {processor.py:153} INFO - Started process (PID=5285) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:50,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:36:50,904] {logging_mixin.py:115} INFO - [2023-10-29 22:36:50,904] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:51,092] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:36:51,112] {logging_mixin.py:115} INFO - [2023-10-29 22:36:51,112] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:36:51,145] {logging_mixin.py:115} INFO - [2023-10-29 22:36:51,145] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:36:51,166] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.270 seconds
+[2023-10-29 22:37:01,287] {processor.py:153} INFO - Started process (PID=5290) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:01,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:01,290] {logging_mixin.py:115} INFO - [2023-10-29 22:37:01,290] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:01,442] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:01,459] {logging_mixin.py:115} INFO - [2023-10-29 22:37:01,459] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:01,482] {logging_mixin.py:115} INFO - [2023-10-29 22:37:01,482] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:01,500] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.205 seconds
+[2023-10-29 22:37:11,615] {processor.py:153} INFO - Started process (PID=5295) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:11,616] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:11,617] {logging_mixin.py:115} INFO - [2023-10-29 22:37:11,617] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:11,755] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:11,769] {logging_mixin.py:115} INFO - [2023-10-29 22:37:11,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:11,796] {logging_mixin.py:115} INFO - [2023-10-29 22:37:11,796] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:11,810] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.198 seconds
+[2023-10-29 22:37:21,931] {processor.py:153} INFO - Started process (PID=5300) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:21,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:21,934] {logging_mixin.py:115} INFO - [2023-10-29 22:37:21,934] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:22,050] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:22,064] {logging_mixin.py:115} INFO - [2023-10-29 22:37:22,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:22,108] {logging_mixin.py:115} INFO - [2023-10-29 22:37:22,108] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:22,122] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.194 seconds
+[2023-10-29 22:37:32,245] {processor.py:153} INFO - Started process (PID=5305) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:32,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:32,247] {logging_mixin.py:115} INFO - [2023-10-29 22:37:32,247] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:32,354] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:32,376] {logging_mixin.py:115} INFO - [2023-10-29 22:37:32,376] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:32,404] {logging_mixin.py:115} INFO - [2023-10-29 22:37:32,403] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:32,421] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.180 seconds
+[2023-10-29 22:37:42,554] {processor.py:153} INFO - Started process (PID=5310) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:42,562] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:42,564] {logging_mixin.py:115} INFO - [2023-10-29 22:37:42,564] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:42,738] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:42,755] {logging_mixin.py:115} INFO - [2023-10-29 22:37:42,754] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:42,780] {logging_mixin.py:115} INFO - [2023-10-29 22:37:42,780] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:42,799] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.251 seconds
+[2023-10-29 22:37:52,937] {processor.py:153} INFO - Started process (PID=5315) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:52,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:37:52,941] {logging_mixin.py:115} INFO - [2023-10-29 22:37:52,941] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:53,131] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis_test']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:37:53,153] {logging_mixin.py:115} INFO - [2023-10-29 22:37:53,152] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:37:53,178] {logging_mixin.py:115} INFO - [2023-10-29 22:37:53,178] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis_test to 2023-10-29T08:00:00+00:00, run_after=2023-10-30T08:00:00+00:00
+[2023-10-29 22:37:53,195] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.262 seconds
+[2023-10-29 22:38:03,327] {processor.py:153} INFO - Started process (PID=5320) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:03,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:03,330] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,329] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:03,513] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:03,606] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,606] {manager.py:508} INFO - Created Permission View: can read on DAG:rent_analysis
+[2023-10-29 22:38:03,619] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,619] {manager.py:508} INFO - Created Permission View: can edit on DAG:rent_analysis
+[2023-10-29 22:38:03,631] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,631] {manager.py:508} INFO - Created Permission View: can delete on DAG:rent_analysis
+[2023-10-29 22:38:03,632] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,632] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:03,643] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,643] {dag.py:2439} INFO - Creating ORM DAG for rent_analysis
+[2023-10-29 22:38:03,656] {logging_mixin.py:115} INFO - [2023-10-29 22:38:03,656] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:03,689] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.366 seconds
+[2023-10-29 22:38:13,831] {processor.py:153} INFO - Started process (PID=5325) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:13,832] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:13,836] {logging_mixin.py:115} INFO - [2023-10-29 22:38:13,835] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:14,001] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:14,009] {logging_mixin.py:115} INFO - [2023-10-29 22:38:14,009] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:14,048] {logging_mixin.py:115} INFO - [2023-10-29 22:38:14,048] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:14,071] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.246 seconds
+[2023-10-29 22:38:21,173] {processor.py:153} INFO - Started process (PID=5330) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:21,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:21,176] {logging_mixin.py:115} INFO - [2023-10-29 22:38:21,175] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:21,309] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:21,316] {logging_mixin.py:115} INFO - [2023-10-29 22:38:21,316] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:21,339] {logging_mixin.py:115} INFO - [2023-10-29 22:38:21,339] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:21,362] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.196 seconds
+[2023-10-29 22:38:31,497] {processor.py:153} INFO - Started process (PID=5335) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:31,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:31,500] {logging_mixin.py:115} INFO - [2023-10-29 22:38:31,500] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:31,661] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:31,670] {logging_mixin.py:115} INFO - [2023-10-29 22:38:31,669] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:31,703] {logging_mixin.py:115} INFO - [2023-10-29 22:38:31,703] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:31,724] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.233 seconds
+[2023-10-29 22:38:41,841] {processor.py:153} INFO - Started process (PID=5340) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:41,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:41,843] {logging_mixin.py:115} INFO - [2023-10-29 22:38:41,843] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:41,974] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:41,998] {logging_mixin.py:115} INFO - [2023-10-29 22:38:41,998] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:42,030] {logging_mixin.py:115} INFO - [2023-10-29 22:38:42,030] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:42,049] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.212 seconds
+[2023-10-29 22:38:52,184] {processor.py:153} INFO - Started process (PID=5345) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:52,185] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:38:52,187] {logging_mixin.py:115} INFO - [2023-10-29 22:38:52,187] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:52,290] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:38:52,311] {logging_mixin.py:115} INFO - [2023-10-29 22:38:52,310] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:38:52,346] {logging_mixin.py:115} INFO - [2023-10-29 22:38:52,346] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:38:52,361] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.180 seconds
+[2023-10-29 22:39:02,557] {processor.py:153} INFO - Started process (PID=5350) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:02,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:39:02,560] {logging_mixin.py:115} INFO - [2023-10-29 22:39:02,560] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:02,712] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:02,731] {logging_mixin.py:115} INFO - [2023-10-29 22:39:02,730] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:39:02,758] {logging_mixin.py:115} INFO - [2023-10-29 22:39:02,757] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:39:02,776] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.222 seconds
+[2023-10-29 22:39:12,945] {processor.py:153} INFO - Started process (PID=5355) to work on /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:12,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/rent_analysis_dag.py for tasks to queue
+[2023-10-29 22:39:12,948] {logging_mixin.py:115} INFO - [2023-10-29 22:39:12,948] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:13,093] {processor.py:651} INFO - DAG(s) dict_keys(['rent_analysis']) retrieved from /opt/airflow/dags/rent_analysis_dag.py
+[2023-10-29 22:39:13,109] {logging_mixin.py:115} INFO - [2023-10-29 22:39:13,109] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-10-29 22:39:13,137] {logging_mixin.py:115} INFO - [2023-10-29 22:39:13,136] {dag.py:2972} INFO - Setting next_dagrun for rent_analysis to 2023-10-28T08:00:00+00:00, run_after=2023-10-29T08:00:00+00:00
+[2023-10-29 22:39:13,156] {processor.py:161} INFO - Processing /opt/airflow/dags/rent_analysis_dag.py took 0.214 seconds

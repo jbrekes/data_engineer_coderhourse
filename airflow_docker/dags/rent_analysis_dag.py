@@ -5,7 +5,7 @@ from airflow.models import Variable
 from rent_analysis_functions.functions import etl_process
 
 with DAG(
-	'rent_analysis_test', 
+	'rent_analysis', 
 	start_date = datetime(2023,1,1),
 	schedule_interval = '0 8 * * *',
 	catchup = False
