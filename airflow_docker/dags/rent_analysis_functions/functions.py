@@ -16,7 +16,7 @@ def send_daily_email(MIN_BATHS, MIN_DORMS, MIN_SUP_M2, **kwargs):
 	# List all URLs that match the search preferences
 	url_links = "\n".join(f"<p><a href='{url}'>{url}</a></p>" for url in filtered_df['listing_url'])
 
-	body = f"""
+	body_true = f"""
 		<html>
 			<head>
 				<style>
@@ -50,6 +50,39 @@ def send_daily_email(MIN_BATHS, MIN_DORMS, MIN_SUP_M2, **kwargs):
 			</body>
 		</html>
 	"""
+
+	body_false = f"""
+		<html>
+			<head>
+				<style>
+					body {{
+						font-family: Arial, sans-serif;
+						margin: 20px;
+					}}
+					p, li {{
+						margin-bottom: 10px;
+					}}
+					h1, h2, h3, h4, h5, h6 {{
+						color: #333;
+					}}
+				</style>
+			</head>
+			<body>
+				<h2>Proceso completado exitosamente</h2>
+				<p>Se han cargado <strong>{new_listings_size}</strong> nuevos registros el día de hoy.</p>
+				<p>En este día, no se han encontrado nuevos registros que cumplan con las preferencias de búsqueda.</p>
+				<p>Si esto continúa en el tiempo, te recomendamos modificar los criterios con nuevos valores. Podrás hacerlo desde la interfaz gráfica de Airflow</p>
+				<h3>Preferencias de búsqueda:</h3>
+				<ul>
+					<li>Superficie mínima en m²: {MIN_SUP_M2}</li>
+					<li>Cantidad mínima de dormitorios: {MIN_DORMS}</li>
+					<li>Cantidad mínima de baños: {MIN_BATHS}</li>
+				</ul>
+			</body>
+		</html>
+	"""
+
+	body = body_true if new_listings_size > 0 else body_false
 
 	email_task = EmailOperator(
 		task_id = 'send_email',
