@@ -52,12 +52,20 @@ Contiene los datos necesarios para conectarnos a la base de datos de Redshift. S
 #### listings_preferences
 Contiene un diccionari de preferencias de búsqueda. Esto permitirá que se filtren los registros agregados a la base de datos para generar y enviar un email personalizado en el que se contendrán los registros que complan con los requisitos especificados. Esto será útil si queremos estar al tanto de nuevos departamentos en alquiler que cumplan con nuestras necesidades. Por el momento, sólo se agregaron como parámetros el **número de baños, dormitorios, y superficie total en m2**, pero fácilmente podrá editarse el código para incluir nuevos criterios.
 
+```json
+{
+  "MIN_BATHS":2,
+  "MIN_DORMS":2,
+  "MIN_SUP_M2":100
+}
+```
+
 Para esto, deberán agregarse las variables en el diccionario mencionado, y editar el filtro de la función [send_daily_email](https://github.com/jbrekes/data_engineer_coderhourse/blob/main/airflow_docker/dags/rent_analysis_functions/functions.py) para contemplar estos nuevos valores.
 
-## Paso 8: COnfigurar las variables SMTP de Airflow
+## Paso 8: Configurar las variables para el envío de emails con Airflow
 Podrán editarse tanto en el archivo airflow.cfg, como dentro del archivo docker-compose.yml (se optó por esta segunda opción en este caso). Esto permitirá hacer uso del servicio de envío de email de Gmail.
 
-```
+```bash
     AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
     AIRFLOW__SMTP__SMTP_PORT: 587
     AIRFLOW__SMTP__SMTP_STARTTLS: True
@@ -71,3 +79,11 @@ Cabe destacar que la contraseña a agregar en este caso no es la misma que utili
 
 ## Paso 8: Ejecutar la tarea
 Con los pasos anteriores, ya deberías estar en condiciones de correr la task sin problemas.
+
+## Ejemplo de Ejecución
+Si todo funciona correctamente, al ejecutar las tasks de Airflow deberás poder recibir un email como el siguiente, en donde se indicará:
+* Camtidad de registros agregados ese día a la base de datos
+* Cuántos registros cumplen con los requisitos de búsqueda establecidos
+* Links a las publicaciones mencionadas
+
+![Ejemplo Email Airflow](https://github.com/jbrekes/data_engineer_coderhourse/blob/main/Airflow%20Email%20Sample.png)
