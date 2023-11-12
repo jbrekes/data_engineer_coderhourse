@@ -1,12 +1,6 @@
-beautifulsoup4
-datetime
-pandas
-psycopg2
-pytz
-python-dotenv
-redshift_connector
-requests
-sqlalchemy
+crear subscription facts y user facts v1 -- DONE
+crear order sequence -- DONE
 
+Hacer joins con IDs -- DONE
 
-
+Ver si puedo sacar revenue en shopify orders

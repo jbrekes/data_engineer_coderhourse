@@ -1,3 +1,174 @@
+def send_daily_email(MIN_BATHS, MIN_DORMS, MIN_SUP_M2, **kwargs):
+	from airflow.operators.email import EmailOperator
+
+    # Recuperar los datos del contexto
+	ti = kwargs['ti']
+	new_listings_df = ti.xcom_pull(task_ids='get_new_listings', key='new_listings_df')
+
+	new_listings_size = new_listings_df.shape[0]
+
+	# Get search preferences
+	filter_values = (new_listings_df['dorms_qty'] >= MIN_DORMS) & (new_listings_df['baths_qty'] >= MIN_BATHS) & (new_listings_df['area_built'] >= MIN_SUP_M2)
+
+	filtered_df = new_listings_df.loc[filter_values]
+	filter_df_size = filtered_df.shape[0]
+
+	# List all URLs that match the search preferences
+	url_links = "\n".join(f"<p><a href='{url}'>{url}</a></p>" for url in filtered_df['listing_url'])
+
+	body = f"""
+		<html>
+			<head>
+				<style>
+					body {{
+						font-family: Arial, sans-serif;
+						margin: 20px;
+					}}
+					p, li {{
+						margin-bottom: 10px;
+					}}
+					h1, h2, h3, h4, h5, h6 {{
+						color: #333;
+					}}
+				</style>
+			</head>
+			<body>
+				<h2>Proceso completado exitosamente</h2>
+				<p>Se han cargado <strong>{new_listings_size}</strong> nuevos registros el día de hoy.</p>
+				<p>De ese total, <strong>{filter_df_size}</strong> registros cumplen con los requisitos de su búsqueda.</p>
+				<h3>Enlaces a registros que cumplen con los criterios:</h3>
+				<ul>
+					{url_links}
+				</ul>
+				<h3>Preferencias de búsqueda:</h3>
+				<ul>
+					<li>Superficie mínima en m²: {MIN_SUP_M2}</li>
+					<li>Cantidad mínima de dormitorios: {MIN_DORMS}</li>
+					<li>Cantidad mínima de baños: {MIN_BATHS}</li>
+				</ul>
+				<p>Recuerde que puede editar las preferencias de búsqueda desde la interfaz gráfica de Airflow.</p>
+			</body>
+		</html>
+	"""
+
+	email_task = EmailOperator(
+		task_id = 'send_email',
+		to = 'jbrekesdata@gmail.com',
+		subject = 'Nuevas propiedades en Alquiler',
+		html_content = body
+	)
+
+	email_task.execute(context=kwargs)
+
+def get_new_listings_list(
+		REDSHIFT_HOST,
+		REDSHIFT_PORT, 
+		REDSHIFT_DATABASE, 
+		REDSHIFT_USER, 
+		REDSHIFT_PASSWORD, 
+		REDSHIFT_SCHEMA, 
+		REDSHIFT_TABLE, 
+		**kwargs
+	):
+	import os
+	import pandas as pd
+	import psycopg2
+	import pytz
+	import redshift_connector
+	import requests
+	import re
+	import time
+	from bs4 import BeautifulSoup
+	from datetime import datetime
+	from dotenv import dotenv_values
+	from sqlalchemy import create_engine, insert, MetaData, Table
+	from sqlalchemy.orm import sessionmaker
+
+	host = REDSHIFT_HOST
+	port = REDSHIFT_PORT
+	database = REDSHIFT_DATABASE
+	user = REDSHIFT_USER
+	password = REDSHIFT_PASSWORD
+	schema = REDSHIFT_SCHEMA
+	table_name = REDSHIFT_TABLE      
+
+	print(f"{host} {port} {database} {user} {password}")
+
+	def redshift_connection(host, port, db, user, pwd):
+	  try:
+	    print('Connecting to Redshift Cluster')
+	    conn = redshift_connector.connect(
+	      host = host,
+	      database = db,
+	      port = int(port),
+	      user = user,
+	      password = pwd
+	    )
+
+	    # Construct the connection URL
+	    db_url = f"postgresql+psycopg2://{user}:{pwd}@{host}:{port}/{db}"
+
+	    # Create an SQLAlchemy engine
+	    engine = create_engine(db_url)
+	    
+	    print('Connection Complete')
+	    return conn, engine
+
+	  except Exception as e:
+	    print(f'Failed to connect to Redshift: {e}')
+
+	conn, engine = redshift_connection(host, port, database, user, password) 
+
+
+	# Create function to execute SQL Queries
+
+	def exec_sql(conn, query):
+	  try:
+	    cursor = conn.cursor()
+	    conn.autocomit = True
+	    cursor.execute(query)
+	    cols = [description[0] for description in cursor.description]
+	    
+	    df = pd.DataFrame(cursor.fetchall(), columns = cols)
+	    return df
+
+	  except Exception as e:
+	    print(f"Failed with error message: {e}")
+	    raise e
+	    
+	  finally:
+	    cursor.close()
+
+	# Extract last day records
+	day_listings_query = f"""
+				with last_date as (
+					select MAX(process_dt) as process_dt from jbrekesdata_coderhouse.daily_house_rent_listings
+				)
+				select distinct
+					listing_id
+					, title_address 
+					, title_desc_short 
+					, listing_price 
+					, expenses_amt 
+					, area_built
+					, dorms_qty 
+					, baths_qty 
+					, listing_url
+				from {schema}.{table_name} a
+				inner join last_date dt
+				on a.process_dt = dt.process_dt
+			"""
+
+	day_new_listings_df = exec_sql(conn, day_listings_query)
+
+	conn.close()
+
+	day_new_listings = day_new_listings_df.shape[0]
+
+	# Create xCOM to send data in next task
+	ti = kwargs['ti']
+	ti.xcom_push(key='new_listings_df', value=day_new_listings_df)
+
 def etl_process(REDSHIFT_HOST, REDSHIFT_PORT, REDSHIFT_DATABASE, REDSHIFT_USER, REDSHIFT_PASSWORD, REDSHIFT_SCHEMA, REDSHIFT_TABLE):
 
 	import os
@@ -78,6 +249,11 @@ def etl_process(REDSHIFT_HOST, REDSHIFT_PORT, REDSHIFT_DATABASE, REDSHIFT_USER, 
 	    title_desc_short = listing_req.find(class_='titlebar__title').get_text(strip=True)
 	    description_title = listing_req.find(class_='section-description--title').get_text(strip=True)
 	    listing_price = listing_req.find(class_='titlebar__price').get_text(strip=True)
+
+	    # Limit the length of title_address and title_desc_short to 150 characters
+	    max_length = 150
+	    title_address = title_address[:max_length]
+	    title_desc_short = title_desc_short[:max_length]
 
 	    try:
 	      listing_id = listing_url.split("--")[-1]
@@ -382,12 +558,16 @@ def etl_process(REDSHIFT_HOST, REDSHIFT_PORT, REDSHIFT_DATABASE, REDSHIFT_USER, 
 	  print(f"Uploading iteration {i + 1} out of {total_chunks}")
 	  
 	  start_time = time.time()
+
+	  try:  
 	  
-	  current_subset.to_sql(table_name, engine, schema=schema, index=False, if_exists='append', chunksize=100)
+	    current_subset.to_sql(table_name, engine, schema=schema, index=False, if_exists='append', chunksize=100)
 	  
+	  except Exception as e:  
+	  	print(f"Failed to upload itaration {i + 1} due to following error: {e}. Continuing with next iteration")
+
 	  end_time = time.time()
 	  elapsed_time = end_time - start_time
-	    
 	  print(f"Time taken for iteration {i + 1}: {elapsed_time} seconds")
 
 
